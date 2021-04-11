@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemName/AK_49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemName/AK_49.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Inventaire.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Inventaire.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +17,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/car.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,10 +31,38 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,9 +73,16 @@
       <option name="presentableId" value="Default" />
       <updated>1618046583732</updated>
       <workItem from="1618046615686" duration="2315000" />
+      <workItem from="1618167000429" duration="257000" />
+      <workItem from="1618167369515" duration="986000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -60,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

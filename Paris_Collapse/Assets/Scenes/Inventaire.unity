@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 31507650}
   - component: {fileID: 31507649}
   - component: {fileID: 31507648}
+  - component: {fileID: 31507653}
   - component: {fileID: 31507652}
   m_Layer: 5
   m_Name: Canvas
@@ -231,12 +232,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31507647}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d188a03260f8c34d821ac3af84a528c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemSlots: {fileID: 0}
+  itemSlots: {fileID: 522807436}
+--- !u!114 &31507653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31507647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122b43c36faee3d4a879cdc3d1f8c362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemList: []
+  path: Assets/Data/playerInventory.csv
+  ItemSlots: {fileID: 0}
 --- !u!1 &41202710
 GameObject:
   m_ObjectHideFlags: 0

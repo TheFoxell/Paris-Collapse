@@ -75,5 +75,10 @@ public class ReadCSV : MonoBehaviour
         }
 
     }
+
+    public List<Item> GetitemListPlayer()
+    {
+        return itemListPlayer;; 
+    }
     
 }

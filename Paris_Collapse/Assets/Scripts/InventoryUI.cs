@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InventoryUI : MonoBehaviour
 {
-    public Transform itemSlots;
-
-    InventorySlot[] slots;
-
+   
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +15,10 @@ public class InventoryUI : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("GameScene");
+        }
     }
     
 }

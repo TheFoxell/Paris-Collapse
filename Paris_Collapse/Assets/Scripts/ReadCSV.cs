@@ -3,15 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ReadCSV : MonoBehaviour
 {
 
     public List<Item> itemListPlayer;
     public List<Item> itemList;
-    
+    public List<GameObject> ListSlots = null;
+
+
     public string path = "Assets/Data/playerInventory.csv";
-    public Transform ItemSlots;
+    
     
     public List<Sprite> sprites;
     
@@ -31,6 +34,7 @@ public class ReadCSV : MonoBehaviour
             while (!sr.EndOfStream)
             {
                 line = sr.ReadLine();
+                Debug.Log("Add "+ line );
                 CreateItem(line);
                 
             }
@@ -46,7 +50,6 @@ public class ReadCSV : MonoBehaviour
             if (item.name == line)
             {
                 itemListPlayer.Add(item);
-                Debug.Log("Add "+ item.name );
             }
         }
         
@@ -54,23 +57,23 @@ public class ReadCSV : MonoBehaviour
 
     void AddItems()
     {
-        InventorySlot[] slots;
-
-        slots = ItemSlots.GetComponentsInChildren<InventorySlot>();
-        
-        foreach (var elt in itemListPlayer)
+        foreach (var item in itemListPlayer)
         {
-            Debug.Log("Count " + itemListPlayer.Count);
+            Sprite slotImage = item.icon;
+            bool find = false;
             
-            for (int i = 0; i < slots.Length ; i++)
+            foreach (var slot in ListSlots)  //Pour chaque Item dans le SlotHolder
             {
-                if (i < itemList.Count)
+                if (!slot.GetComponent<Image>().enabled && !find)    //Si not enabled
                 {
-                    slots[i].AddItem(elt);  
-                    Debug.Log("Add UI " + elt);
+                    Debug.Log("Image null");
+                    slot.GetComponent<Image>().enabled = true;          // set enabled true
+                    slot.GetComponent<Image>().sprite = slotImage;      // set image item to slot
+                    find = true;
                 }
             }
         }
+
     }
     
 }

@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Double Cheese
   m_EditorClassIdentifier: 
   name: Double Cheese
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: b7bbde4b13c125f41ae89aed5db9a1e1, type: 3}
   isDefaultItem: 0
+  deg: 0
+  pen: 0
+  pre: 0
+  cri: 0
+  health: 0
+  price: 0

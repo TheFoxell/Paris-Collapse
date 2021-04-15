@@ -10,7 +10,7 @@ public class Interactable : MonoBehaviour
     bool isFocus = false;
     Transform player;
 
-    bool hasInteracted = false;
+    public bool hasInteracted = false;
 
 
     public virtual void Interact()

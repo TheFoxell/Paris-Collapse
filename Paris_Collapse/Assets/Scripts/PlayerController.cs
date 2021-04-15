@@ -56,6 +56,7 @@ public class PlayerController : MonoBehaviour
                 {
                     SetFocus(interactable);
                 }
+                
             }
         }
 
@@ -81,7 +82,7 @@ public class PlayerController : MonoBehaviour
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
                 
                 // Si il est un magasin
-                if (interactable.name == "store")
+                if (interactable.name == "Store")
                 {
                     
                     Debug.Log("TEST OK");

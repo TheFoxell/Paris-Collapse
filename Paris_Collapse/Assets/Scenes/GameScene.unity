@@ -244,8 +244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0778aa6681ec043bc3f40aa0d6cafe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 12
+  radius: 16
   interactionTransform: {fileID: 385552751}
+  hasInteracted: 0
 --- !u!1 &391942655
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +261,7 @@ GameObject:
   - component: {fileID: 391942656}
   - component: {fileID: 391942660}
   - component: {fileID: 391942661}
+  - component: {fileID: 391942662}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -362,6 +364,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0775528e446cd2d46bbf7dfd33df0688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &391942662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391942655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7502586f71bc15b44bad9f68c778aab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 3
+  health: 75
+  coin: 500
+  saving: 1
 --- !u!1 &653502006
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 12
   interactionTransform: {fileID: 809169373}
+  hasInteracted: 0
 --- !u!114 &809169369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 12
   interactionTransform: {fileID: 809169373}
+  hasInteracted: 0
   item: {fileID: 11400000, guid: 10e4fd9b6bce0c14aa5aa8440c86489c, type: 2}
 --- !u!65 &809169370
 BoxCollider:
@@ -705,6 +725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 12
   interactionTransform: {fileID: 1004042615}
+  hasInteracted: 0
 --- !u!114 &1004042611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -719,6 +740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 12
   interactionTransform: {fileID: 1004042615}
+  hasInteracted: 0
   item: {fileID: 11400000, guid: 940db81c207e9ca4fbc2b196fd7bcc34, type: 2}
 --- !u!65 &1004042612
 BoxCollider:
@@ -1006,6 +1028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 12
   interactionTransform: {fileID: 1289664787}
+  hasInteracted: 0
   item: {fileID: 11400000, guid: 33cf4db7f241dcc4498b895a2aa71852, type: 2}
 --- !u!114 &1289664789
 MonoBehaviour:
@@ -1021,6 +1044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 12
   interactionTransform: {fileID: 1289664787}
+  hasInteracted: 0
 --- !u!1 &1729587989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,6 +1150,7 @@ GameObject:
   - component: {fileID: 2141729624}
   - component: {fileID: 2141729623}
   - component: {fileID: 2141729625}
+  - component: {fileID: 2141729626}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1145,6 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09caa559110f42b44965777f6f7cbc06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  path: Assets/Data/playerInventory.csv
   space: 20
   items: []
 --- !u!4 &2141729624
@@ -1174,3 +1200,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
+--- !u!114 &2141729626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141729622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8036bb353cec57b409f33790d773c80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 391942662}

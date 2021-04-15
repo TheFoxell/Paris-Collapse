@@ -9,7 +9,8 @@ public class Player : MonoBehaviour
     public int coin = 500;
 
     public bool saving = true;
-
+    
+    
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
@@ -42,7 +43,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             StopSaving();
-            SaveSystem.Delete("player");
         }
         
         
@@ -52,8 +52,10 @@ public class Player : MonoBehaviour
     }
 
 
-    void StopSaving()
+    public void StopSaving()
     {
         saving = !saving;
+        SaveSystem.Delete("player");
     }
+    
 }

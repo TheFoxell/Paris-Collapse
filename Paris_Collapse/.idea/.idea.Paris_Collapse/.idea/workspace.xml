@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/car.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/car.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +41,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/car.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VehiculeSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CarNodes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vehicule AI controler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CarModifer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/deplacement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +102,22 @@
       <workItem from="1618046615686" duration="2315000" />
       <workItem from="1618167000429" duration="257000" />
       <workItem from="1618167369515" duration="986000" />
+      <workItem from="1618509013345" duration="7000" />
+      <workItem from="1618509109419" duration="55000" />
+      <workItem from="1618509465452" duration="57000" />
+      <workItem from="1618509579755" duration="22000" />
+      <workItem from="1618509634958" duration="42000" />
+      <workItem from="1618509729185" duration="3071000" />
+      <workItem from="1618512864622" duration="289000" />
+      <workItem from="1618513363689" duration="2000" />
+      <workItem from="1618513401267" duration="7000" />
+      <workItem from="1618514309994" duration="113000" />
+      <workItem from="1618514458386" duration="867000" />
+      <workItem from="1618518471061" duration="23000" />
+      <workItem from="1618518552572" duration="32000" />
+      <workItem from="1618518663505" duration="2000" />
+      <workItem from="1618518815818" duration="11000" />
+      <workItem from="1618590679926" duration="1000" />
     </task>
     <servers />
   </component>

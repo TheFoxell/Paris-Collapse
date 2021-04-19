@@ -16,6 +16,7 @@
           <e p="Item.cs" t="Include" />
           <e p="ItemPickup.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="perso.cs" t="Include" />
           <e p="PlayerMotor.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

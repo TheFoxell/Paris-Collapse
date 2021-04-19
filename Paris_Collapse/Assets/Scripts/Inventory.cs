@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-
+    //test
     public string path = "Assets/Data/playerInventory.csv";
     public static Inventory instance;
 

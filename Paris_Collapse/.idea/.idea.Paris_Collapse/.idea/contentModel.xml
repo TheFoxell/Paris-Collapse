@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="BattleHUD.cs" t="Include" />
         <e p="BattleSystem.cs" t="Include" />
+        <e p="BuyButton.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="camera.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />

@@ -15,6 +15,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Inventaire.unity
     guid: fbefc53b6a3e217438e8719bb61b8189
   - enabled: 1
+    path: Assets/Scenes/InventaireCombat.unity
+    guid: ba167fb179ace5547805eaa3dd2a4dc2
+  - enabled: 1
     path: Assets/Scenes/Store.unity
     guid: a936283e807e9cc48b4f92ae34d2fb5a
+  - enabled: 1
+    path: Assets/Scenes/Combat1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Combat2.unity
+    guid: 5f82fc28f902ff6438f1f41543f793f6
+  - enabled: 1
+    path: Assets/Scenes/Combat3.unity
+    guid: c7cf818465d9b4744a18cb1f853fcd48
+  - enabled: 1
+    path: Assets/Scenes/CombatPlayer.unity
+    guid: 154eea97ec42e584fbe4362530d32d69
   m_configObjects: {}

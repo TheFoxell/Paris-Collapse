@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public int level = 3;
+    public Unit unit;
+    
+    public int level = 1;
     public int health = 75;
     public int coin = 500;
 
@@ -40,13 +44,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         if (Input.GetKeyDown(KeyCode.P))
         {
             StopSaving();
         }
-        
-        
-        
+
         if(saving)
             SavePlayer();
     }

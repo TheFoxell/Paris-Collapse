@@ -17,6 +17,7 @@
           <e p="DebugController.cs" t="Include" />
           <e p="deplacement.cs" t="Include" />
           <e p="dialogues.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="InteractScene.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />

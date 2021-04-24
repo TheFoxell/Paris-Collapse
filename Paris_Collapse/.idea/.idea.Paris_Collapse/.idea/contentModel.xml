@@ -31,6 +31,7 @@
           <e p="ItemPickup.cs" t="Include" />
           <e p="ItemSlotsManage.cs" t="Include" />
           <e p="ItemUI.cs" t="Include" />
+          <e p="LevelText.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
@@ -38,6 +39,7 @@
           <e p="PlayerMotor.cs" t="Include" />
           <e p="ReadCSV.cs" t="Include" />
           <e p="SaveSystem.cs" t="Include" />
+          <e p="ScoreText.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class dialogues : MonoBehaviour
 {
@@ -47,6 +48,7 @@ public class dialogues : MonoBehaviour
       {
          textDisplay.text = "";
          continueButton.SetActive(false);
+         SceneManager.LoadScene("GameScene");
       }
    }
 }

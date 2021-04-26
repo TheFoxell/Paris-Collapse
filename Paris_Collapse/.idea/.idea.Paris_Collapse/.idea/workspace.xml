@@ -23,6 +23,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/dialogues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/dialogues.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fbx/LowPoly_car.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fbx/LowPoly_car.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fbx/LowPoly_car.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fbx/LowPoly_car.blend.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +61,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelText.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/dialogues.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Audio.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/car.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
@@ -125,7 +139,8 @@
       <workItem from="1618838885673" duration="1757000" />
       <workItem from="1619026535511" duration="10379000" />
       <workItem from="1619123272891" duration="4651000" />
-      <workItem from="1619210031230" duration="5473000" />
+      <workItem from="1619210031230" duration="6195000" />
+      <workItem from="1619425471371" duration="3457000" />
     </task>
     <servers />
   </component>

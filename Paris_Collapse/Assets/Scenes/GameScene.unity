@@ -343,13 +343,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 391942655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 082eb33a254960c40a3e567f836cce72, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f4c2d4b1a06cb24aa78dba378a8cb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   focus: {fileID: 0}
   movementMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
 --- !u!114 &391942661
 MonoBehaviour:
   m_ObjectHideFlags: 0

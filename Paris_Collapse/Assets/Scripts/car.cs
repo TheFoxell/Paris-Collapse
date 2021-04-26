@@ -26,3 +26,4 @@ public class Car : MonoBehaviour
         return GameObject.Find("point" + dest).transform.position;
     }
 }
+

@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/cartoonCharacter.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/cartoonCharacter.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Female Tough Walk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Female Tough Walk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +29,37 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BuyButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombat1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombat2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombat3.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombatPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ItemUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/BuyButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelText.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Audio.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/car.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/dialogues.cs" />
+      <option value="$PROJECT_DIR$/Assets/QueteController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -108,6 +130,10 @@
       <workItem from="1618590679926" duration="1000" />
       <workItem from="1618595360284" duration="1000" />
       <workItem from="1618838885673" duration="1757000" />
+      <workItem from="1619026535511" duration="10379000" />
+      <workItem from="1619123272891" duration="4651000" />
+      <workItem from="1619210031230" duration="6195000" />
+      <workItem from="1619425471371" duration="13751000" />
     </task>
     <servers />
   </component>

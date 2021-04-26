@@ -1,14 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime;
 using UnityEngine;
+using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public int level = 3;
+    public Unit unit;
+
+    public int maxHealth = 100;
+    public HealthBar healthBar;
+    
+    public int level = 1;
     public int health = 75;
     public int coin = 500;
 
     public bool saving = true;
+
+    private float timestamp = 0.0f;
+    public int regeneration = 5;
+    
     
     
     public void SavePlayer()
@@ -28,6 +40,8 @@ public class Player : MonoBehaviour
         position.y = data.position[1];
         position.z = data.position[2];
         transform.position = position;
+
+        coin = data.coin;
     }
     
     
@@ -35,20 +49,36 @@ public class Player : MonoBehaviour
     void Start()
     {
         LoadPlayer();
+        
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+            healthBar.SetHealth(health);
+        }
+        
+        InvokeRepeating("Regenerate", 0.0f, 10.0f / regeneration);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(health);
+        }
+
         if (Input.GetKeyDown(KeyCode.P))
         {
             StopSaving();
         }
-        
-        
-        
+
         if(saving)
             SavePlayer();
+
+
+        
+        
     }
 
 
@@ -56,6 +86,12 @@ public class Player : MonoBehaviour
     {
         saving = !saving;
         SaveSystem.Delete("player");
+    }
+
+    void Regenerate()
+    {
+        if (health < maxHealth && Time.time > (timestamp + 10.0f))
+            health += 1;
     }
     
 }

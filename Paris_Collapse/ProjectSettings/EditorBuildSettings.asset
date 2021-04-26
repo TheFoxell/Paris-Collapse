@@ -9,12 +9,42 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: cba3c874dd9a0a548a0278541be0b9b0
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 83dbb2f31742e6a40a6e05f44a387620
+  - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 15a1bdbca7b2fac4b95602cf19dbc293
   - enabled: 1
     path: Assets/Scenes/Inventaire.unity
     guid: fbefc53b6a3e217438e8719bb61b8189
   - enabled: 1
+    path: Assets/Scenes/InventaireCombat.unity
+    guid: ba167fb179ace5547805eaa3dd2a4dc2
+  - enabled: 1
+    path: Assets/Scenes/InventaireCombat1.unity
+    guid: 3ae2604e6d358454481d54dce7672edd
+  - enabled: 1
+    path: Assets/Scenes/InventaireCombat2.unity
+    guid: b653d825e1c7f6542ace282d51d17a9c
+  - enabled: 1
+    path: Assets/Scenes/InventaireCombat3.unity
+    guid: 30384938cd7a15c4993f34cf67ad5ba3
+  - enabled: 1
+    path: Assets/Scenes/InventaireCombatPlayer.unity
+    guid: 83199a48b9fef8c4984c7a635f630f3d
+  - enabled: 1
     path: Assets/Scenes/Store.unity
     guid: a936283e807e9cc48b4f92ae34d2fb5a
+  - enabled: 1
+    path: Assets/Scenes/Combat1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Combat2.unity
+    guid: 5f82fc28f902ff6438f1f41543f793f6
+  - enabled: 1
+    path: Assets/Scenes/Combat3.unity
+    guid: c7cf818465d9b4744a18cb1f853fcd48
+  - enabled: 1
+    path: Assets/Scenes/CombatPlayer.unity
+    guid: 154eea97ec42e584fbe4362530d32d69
   m_configObjects: {}

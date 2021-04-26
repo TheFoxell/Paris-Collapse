@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using  UnityEngine.AI;
 
-public class Car : MonoBehaviour
+public class car : MonoBehaviour
 {
      NavMeshAgent agent;
     void Start()
@@ -26,3 +26,4 @@ public class Car : MonoBehaviour
         return GameObject.Find("point" + dest).transform.position;
     }
 }
+

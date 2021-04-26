@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class dialogues : MonoBehaviour
 {
+   public GameObject Quete;
    public TextMeshProUGUI textDisplay;
    public string[] sentences;
    private int index;
@@ -18,9 +20,13 @@ public class dialogues : MonoBehaviour
 
     void Update()
    {
-      if (textDisplay.text == sentences[index])
+      if (textDisplay.text == sentences[index] && (Quete.activeSelf || Quete == null))
       {
          continueButton.SetActive(true);
+      }
+      else
+      {
+         continueButton.SetActive(false);
       }
    }
 
@@ -47,6 +53,8 @@ public class dialogues : MonoBehaviour
       {
          textDisplay.text = "";
          continueButton.SetActive(false);
+         if (SceneManager.GetActiveScene().name == "Intro" )
+            SceneManager.LoadScene("GameScene");
       }
    }
 }

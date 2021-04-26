@@ -103,9 +103,28 @@ public class BattleSystem : MonoBehaviour
 		if(state == BattleState.WON)
 		{
 			dialogueText.text = "Vous avez gagné le combat!";
+			
+			if (enemyUnit.unitName == "Zorg")
+			{
+				playerUnit.player.coin += 100;
+			}
+		
+			if (enemyUnit.unitName == "T-800")
+			{
+				playerUnit.player.coin += 250;
+			}
+		
+			if (enemyUnit.unitName == "T-1000")
+			{
+				playerUnit.player.coin += 500;
+			}
+
 		} else if (state == BattleState.LOST)
 		{
 			dialogueText.text = "Vous avez perdu le combat!";
+			
+			playerUnit.player.coin -= 150;
+			playerUnit.player.health = 15;
 		}
 	}
 

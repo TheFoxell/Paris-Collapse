@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
@@ -16,6 +17,10 @@ public class Player : MonoBehaviour
     public int coin = 500;
 
     public bool saving = true;
+
+    private float timestamp = 0.0f;
+    public int regeneration = 5;
+    
     
     
     public void SavePlayer()
@@ -44,11 +49,15 @@ public class Player : MonoBehaviour
     void Start()
     {
         LoadPlayer();
+        
         if (healthBar != null)
         {
             healthBar.SetMaxHealth(maxHealth);
             healthBar.SetHealth(health);
         }
+        
+        InvokeRepeating("Regenerate", 0.0f, 10.0f / regeneration);
+        
     }
 
     // Update is called once per frame
@@ -66,6 +75,10 @@ public class Player : MonoBehaviour
 
         if(saving)
             SavePlayer();
+
+
+        
+        
     }
 
 
@@ -73,6 +86,12 @@ public class Player : MonoBehaviour
     {
         saving = !saving;
         SaveSystem.Delete("player");
+    }
+
+    void Regenerate()
+    {
+        if (health < maxHealth && Time.time > (timestamp + 10.0f))
+            health += 1;
     }
     
 }

@@ -20,22 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/car.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/car.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Female Tough Walk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Female Tough Walk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/remy@Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fbx/LowPoly_car.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fbx/LowPoly_car.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fbx/toureiffel.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fbx/toureiffel.blend" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +120,7 @@
       <workItem from="1618838885673" duration="1757000" />
       <workItem from="1619173484376" duration="6513000" />
       <workItem from="1619286397498" duration="2510000" />
+      <workItem from="1619429768214" duration="654000" />
     </task>
     <servers />
   </component>

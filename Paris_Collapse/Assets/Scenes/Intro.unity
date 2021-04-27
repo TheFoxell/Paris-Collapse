@@ -889,14 +889,14 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 8b29aaa3eec7468097ff07adfcf29ac9, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4290788395
-  m_fontColor: {r: 0.16862744, g: 0.23678575, b: 0.7529412, a: 1}
+  m_fontColor: {r: 0.16862744, g: 0.65594375, b: 0.7529412, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -984,6 +984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e95eaaf4a914db4ebfa2e2d7d2ec831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quete: {fileID: 0}
   textDisplay: {fileID: 1585126188}
   sentences:
   - Bienvenue dans le monde de Paris Collapse Kayne

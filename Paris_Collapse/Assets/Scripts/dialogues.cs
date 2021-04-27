@@ -20,7 +20,7 @@ public class dialogues : MonoBehaviour
 
     void Update()
    {
-      if (textDisplay.text == sentences[index] && (Quete.activeSelf || Quete == null))
+      if (textDisplay.text == sentences[index])
       {
          continueButton.SetActive(true);
       }

@@ -280,8 +280,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 8b29aaa3eec7468097ff07adfcf29ac9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -486,16 +486,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e95eaaf4a914db4ebfa2e2d7d2ec831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quete: {fileID: 0}
   textDisplay: {fileID: 133035046}
   sentences:
-  - Bienvenue dans le monde de Paris Collapse Kayne !!
-  - "Tu as d\xE9sormais l'avenir de Paris entre tes mains."
-  - "\xC0 toi de gagner le plus de combats contre les robots que tu vas croiser."
+  - Bienvenue dans le monde de Paris Collapse Kayne
+  - Tu as desormais l'avenir de Paris entre tes mains.
+  - A toi de gagner le plus de combats contre les robots que tu vas croiser.
   - Tu peux te balader dans la ville et affronter des robots pour gagner le plus
     d'argent et augmenter ton niveau.
-  - "L'argent que tu \xE9conomises pourra te servir \xE0 acheter des armes et ainsi
-    pouvoir faire plus de d\xE9g\xE2ts \xE0 ton adversaire."
-  - "\xC0 toi de jouer on a confiance en toi !!!"
+  - L'argent que tu economises pourra te servir a acheter des armes et ainsi pouvoir
+    faire plus de degats a ton adversaire.
+  - A toi de jouer on a confiance en toi.
   typingSpeed: 0.02
   continueButton: {fileID: 1566469063}
 --- !u!4 &970772203

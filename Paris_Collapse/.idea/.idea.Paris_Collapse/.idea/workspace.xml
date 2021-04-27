@@ -21,14 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialogues.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialogues.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/dialogues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/dialogues.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,35 +35,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/BuyButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Quest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombat1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombat2.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombat3.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUICombatPlayer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ItemUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/BuyButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelText.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Audio.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/car.cs" />
-      <option value="$PROJECT_DIR$/Assets/Quest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-      <option value="$PROJECT_DIR$/Assets/QueteController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-      <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/dialogues.cs" />
-    </changedPaths>
+    <setting file="file://$PROJECT_DIR$/Assets/BuyButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -89,7 +61,7 @@
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -142,6 +114,8 @@
       <workItem from="1619123272891" duration="4651000" />
       <workItem from="1619210031230" duration="6195000" />
       <workItem from="1619425471371" duration="15661000" />
+      <workItem from="1619531662743" duration="281000" />
+      <workItem from="1619533754141" duration="484000" />
     </task>
     <servers />
   </component>

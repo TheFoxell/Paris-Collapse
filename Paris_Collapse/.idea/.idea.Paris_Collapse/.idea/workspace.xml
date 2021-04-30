@@ -52,6 +52,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/car.cs" />
         <option value="$PROJECT_DIR$/Assets/robots/AI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/robots.cs" />
+        <option value="$PROJECT_DIR$/Assets/minijeu/script/snake.cs" />
+        <option value="$PROJECT_DIR$/Assets/minijeu/nombrealé.cs" />
       </list>
     </option>
   </component>
@@ -129,6 +131,8 @@
       <workItem from="1619429768214" duration="1423000" />
       <workItem from="1619438205031" duration="206000" />
       <workItem from="1619701175349" duration="1631000" />
+      <workItem from="1619807421702" duration="870000" />
+      <workItem from="1619810942482" duration="2441000" />
     </task>
     <servers />
   </component>

@@ -6,6 +6,10 @@
     <e p="C:\Users\Thomas Shamoun\Documents\GitHub\Paris-Collapse\Paris_Collapse" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="GameScript.cs" t="Include" />
+        <e p="minijeu" t="Include">
+          <e p="nombrealé.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="camera.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />

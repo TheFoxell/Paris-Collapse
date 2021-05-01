@@ -21,7 +21,7 @@ public class nombrealé : MonoBehaviour
         endGame = false;
         nb = Random.Range(1, 100);
         nbCoup = 0;
-        txt.text = "Trouve le nombre ?";
+        txt.text = "Propose un nombre entre 1 et 100";
         IfGetFocus();
     }
 

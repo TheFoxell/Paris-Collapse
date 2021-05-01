@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/robots.cs" />
         <option value="$PROJECT_DIR$/Assets/minijeu/script/snake.cs" />
         <option value="$PROJECT_DIR$/Assets/minijeu/nombrealé.cs" />
+        <option value="$PROJECT_DIR$/Assets/minijeu/script/facedé.cs" />
+        <option value="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" />
       </list>
     </option>
   </component>
@@ -133,6 +134,7 @@
       <workItem from="1619701175349" duration="1631000" />
       <workItem from="1619807421702" duration="870000" />
       <workItem from="1619810942482" duration="2441000" />
+      <workItem from="1619865367479" duration="2829000" />
     </task>
     <servers />
   </component>

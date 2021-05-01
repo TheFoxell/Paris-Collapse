@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class nombrealé : MonoBehaviour
@@ -10,6 +11,7 @@ public class nombrealé : MonoBehaviour
     [SerializeField] 
     int nb, nbCoup; 
     bool endGame = false;
+    public Player player;
 
     private void Start()
     {
@@ -56,9 +58,17 @@ public class nombrealé : MonoBehaviour
     }
     void Update()
     {
-        if (endGame && Input.GetKeyDown(KeyCode.Space))
+        if (endGame && Input.GetKeyDown(KeyCode.E))
         {
-            InitNb();
+
+            if (nbCoup <= 3)
+                player.coin += 20;
+            if (nbCoup <= 5)
+                player.coin += 15;
+            else
+                player.coin -= 10;
+            
+            SceneManager.LoadScene("GameScene");
         }
     }
 }

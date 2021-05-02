@@ -52,6 +52,8 @@
           <e p="robots.cs" t="Include" />
           <e p="SaveSystem.cs" t="Include" />
           <e p="ScoreText.cs" t="Include" />
+          <e p="Snake.cs" t="Include" />
+          <e p="SpawnFood.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

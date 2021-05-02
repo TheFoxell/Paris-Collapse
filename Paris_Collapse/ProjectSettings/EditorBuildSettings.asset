@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: "Assets/minijeu/nombreal\xE9atoire.unity"
     guid: 9f9076cd7f5f305489a33de390d9731a
   - enabled: 1
+    path: Assets/Scenes/main.unity
+    guid: 9e193167b2042d048a8a14696fc7764d
+  - enabled: 1
     path: Assets/Scenes/Store.unity
     guid: a936283e807e9cc48b4f92ae34d2fb5a
   - enabled: 1

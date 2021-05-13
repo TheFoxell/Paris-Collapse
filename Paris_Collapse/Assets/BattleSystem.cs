@@ -83,6 +83,7 @@ public class BattleSystem : MonoBehaviour
 		bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
 
 		playerHUD.SetHP(playerUnit.currentHP);
+		playerHUD.SetShield(playerUnit.currentShield);
 
 		yield return new WaitForSeconds(1f);
 
@@ -107,16 +108,19 @@ public class BattleSystem : MonoBehaviour
 			if (enemyUnit.unitName == "Zorg")
 			{
 				playerUnit.player.coin += 100;
+				playerUnit.player.exp += 20;
 			}
 		
 			if (enemyUnit.unitName == "T-800")
 			{
 				playerUnit.player.coin += 250;
+				playerUnit.player.exp += 40;
 			}
 		
 			if (enemyUnit.unitName == "T-1000")
 			{
 				playerUnit.player.coin += 500;
+				playerUnit.player.exp += 50;
 			}
 
 		} else if (state == BattleState.LOST)

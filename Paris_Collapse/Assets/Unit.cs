@@ -14,6 +14,7 @@ public class Unit : MonoBehaviour
 
 	public int maxHP;
 	public int currentHP;
+	public int currentShield;
 
 
 	void Start()
@@ -23,6 +24,7 @@ public class Unit : MonoBehaviour
 			unitName = player.name;
 			unitLevel = player.level;
 			currentHP = player.health;
+			currentShield = player.shield;
 		}
 	}
 
@@ -33,7 +35,16 @@ public class Unit : MonoBehaviour
 
 	public bool TakeDamage(int dmg)
 	{
-		currentHP -= dmg;
+		if (currentShield != 0 && currentShield < dmg)
+		{
+			currentShield = 0;
+			dmg -= currentShield;
+			currentHP -= dmg;
+		}
+		if (currentShield != 0 && currentShield >= dmg)
+			currentShield -= dmg;
+		else
+			currentHP -= dmg;
 
 		if (currentHP <= 0)
 			return true;

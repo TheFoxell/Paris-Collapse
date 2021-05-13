@@ -9,6 +9,9 @@ public class PlayerData
     public int health;
     public float[] position;
     public int coin;
+    public int exp;
+    public int expMax;
+    public int shield;
 
 
     public PlayerData(Player player)
@@ -16,6 +19,11 @@ public class PlayerData
         level = player.level;
         health = player.health;
         coin = player.coin;
+        exp = player.exp;
+        expMax = player.expMax;
+        shield = player.shield;
+        
+        
 
         position = new float[3];
         position[0] = player.transform.position.x;

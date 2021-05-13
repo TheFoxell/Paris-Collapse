@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
+using System.IO;
 using System.Runtime;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -11,9 +13,17 @@ public class Player : MonoBehaviour
 
     public int maxHealth = 100;
     public HealthBar healthBar;
+    public ShieldBar shieldBar;
+    public ExpBar expBar;
     
     public int level = 1;
-    public int health = 75;
+    public int expMax = 100;
+    public int exp = 90;
+
+    public int maxShield = 100;
+    public int shield = 25;
+    
+    public int health = 100;
     public int coin = 500;
 
     public bool saving = true;
@@ -34,6 +44,9 @@ public class Player : MonoBehaviour
 
         level = data.level;
         health = data.health;
+        exp = data.exp;
+        expMax = data.expMax;
+        shield = data.shield;
 
         Vector3 position;
         position.x = data.position[0];
@@ -56,6 +69,18 @@ public class Player : MonoBehaviour
             healthBar.SetHealth(health);
         }
         
+        if (shieldBar != null)
+        {
+            shieldBar.SetMaxShield(maxShield);
+            shieldBar.SetShield(shield);
+        }
+        
+        if (expBar != null)
+        {
+            expBar.SetMaxExp(expMax);
+            expBar.SetExp(exp);
+        }
+        
         InvokeRepeating("Regenerate", 0.0f, 10.0f / regeneration);
         
     }
@@ -64,24 +89,35 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (healthBar != null)
-        {
             healthBar.SetHealth(health);
-        }
+        
+        
+        if(shieldBar != null)
+            shieldBar.SetShield(shield);
+        
+        if(expBar != null)
+            expBar.SetExp(exp);
 
         if (Input.GetKeyDown(KeyCode.P))
-        {
             StopSaving();
-        }
 
         if(saving)
             SavePlayer();
-
-
         
+        UpdateLevel();
         
     }
 
 
+    public void UpdateLevel()
+    {
+        if (exp >= expMax)
+        {
+            exp -= expMax;
+            expMax += 50;
+            level += 1;
+        }
+    }
     public void StopSaving()
     {
         saving = !saving;

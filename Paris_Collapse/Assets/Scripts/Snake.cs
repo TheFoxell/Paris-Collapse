@@ -36,7 +36,7 @@ public class Snake : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		OnTriggerEnter2D(new Collider2D());
+		
 		if (!isDied) {
 			// Move in a new Direction?
 			if (Input.GetKey (KeyCode.RightArrow))
@@ -86,7 +86,7 @@ public class Snake : MonoBehaviour {
 					tail.Last ().position = v;
 
 					// Add to front of list, remove from the back
-					tail.Insert (0, tail.Last ());
+					tail.Insert (0, tail.Last());
 					tail.RemoveAt (tail.Count - 1);
 			}
 		}
@@ -102,17 +102,6 @@ public class Snake : MonoBehaviour {
 			Destroy(coll.gameObject);
 		} else { 	// Collided with Tail or Border
 			isDied = true;
-		}
-	}
-
-	void ContactTail()
-	{
-		foreach (var elt in tail)
-		{
-			if (elt.position.x == dir.x && elt.position.y == dir.y)
-			{
-				isDied = true;
-			}
 		}
 	}
 }

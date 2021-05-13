@@ -27,6 +27,7 @@
           <e p="DebugController.cs" t="Include" />
           <e p="deplacement.cs" t="Include" />
           <e p="dialogues.cs" t="Include" />
+          <e p="ExpBar.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="InteractScene.cs" t="Include" />
@@ -52,6 +53,7 @@
           <e p="robots.cs" t="Include" />
           <e p="SaveSystem.cs" t="Include" />
           <e p="ScoreText.cs" t="Include" />
+          <e p="ShieldBar.cs" t="Include" />
           <e p="Snake.cs" t="Include" />
           <e p="SpawnFood.cs" t="Include" />
         </e>

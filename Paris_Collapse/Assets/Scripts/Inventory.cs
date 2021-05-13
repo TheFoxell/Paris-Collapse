@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-
+    //test
+    public string path = "Assets/Data/playerInventory.csv";
     public static Inventory instance;
 
     #region Singleton
@@ -39,6 +41,7 @@ public class Inventory : MonoBehaviour
             }
 
             items.Add(item);
+            AddCSV(item);
 
             if(onItemChangedCallback != null)
                 onItemChangedCallback.Invoke();
@@ -53,5 +56,15 @@ public class Inventory : MonoBehaviour
 
         if(onItemChangedCallback != null)
             onItemChangedCallback.Invoke();
+    }
+
+    void AddCSV(Item item)
+    {
+        string name = item.name;
+        using (StreamWriter sw = File.AppendText(path))
+        {
+            sw.WriteLine(name);
+        }	
+        
     }
 }

@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/robots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/robots.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +30,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/robots.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Snake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BuyButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/VehiculeSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CarNodes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Vehicule AI controler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CarModifer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/deplacement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Car.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/perso.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Personnage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Perso.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/car.cs" />
-        <option value="$PROJECT_DIR$/Assets/robots/AI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/robots.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
+      <option value="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
+      <option value="$PROJECT_DIR$/Assets/BattleHUD.cs" />
+      <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ExpBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,7 +80,7 @@
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -124,12 +129,15 @@
       <workItem from="1618590679926" duration="1000" />
       <workItem from="1618595360284" duration="1000" />
       <workItem from="1618838885673" duration="1757000" />
-      <workItem from="1619173484376" duration="6513000" />
-      <workItem from="1619286397498" duration="2510000" />
-      <workItem from="1619429768214" duration="1423000" />
-      <workItem from="1619438205031" duration="206000" />
-      <workItem from="1619701175349" duration="1631000" />
-      <workItem from="1620475405570" duration="256000" />
+      <workItem from="1619026535511" duration="10379000" />
+      <workItem from="1619123272891" duration="4651000" />
+      <workItem from="1619210031230" duration="6195000" />
+      <workItem from="1619425471371" duration="15661000" />
+      <workItem from="1619531662743" duration="281000" />
+      <workItem from="1619533754141" duration="484000" />
+      <workItem from="1619909797983" duration="1539000" />
+      <workItem from="1620215921377" duration="5497000" />
+      <workItem from="1620919710979" duration="6227000" />
     </task>
     <servers />
   </component>

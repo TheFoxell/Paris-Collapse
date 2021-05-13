@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Paris_Collapse/Assets/Data.meta
 guid: 0371d5ad886d51641a594d3bb205f755
+=======
+guid: f54d1bd14bd3ca042bd867b519fee8cc
+>>>>>>> dialogues:Paris_Collapse/Assets/TextMesh Pro.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

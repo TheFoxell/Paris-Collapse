@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Coca Cola
   m_EditorClassIdentifier: 
   name: Coca Cola
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 956c6c4011191504180eca501b4da0da, type: 3}
+  image: {fileID: 21300000, guid: 9d6d76149b8d9a244b88ccc371794354, type: 3}
   isDefaultItem: 0
+  deg: 0
+  pen: 0
+  pre: 0
+  cri: 0
+  health: 25
+  price: 30

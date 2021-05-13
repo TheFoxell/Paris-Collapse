@@ -5,12 +5,6 @@ using UnityEngine;
 public class robots : MonoBehaviour
 {
     private RaycastHit Hit;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.forward * 4 * Time.deltaTime);

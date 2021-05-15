@@ -31,6 +31,7 @@ public class Unit : MonoBehaviour
 	void Update()
 	{
 		player.health = currentHP;
+		player.shield = currentShield;
 	}
 
 	public bool TakeDamage(int dmg)

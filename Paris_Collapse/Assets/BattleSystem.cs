@@ -59,6 +59,7 @@ public class BattleSystem : MonoBehaviour
 		bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
 		enemyHUD.SetHP(enemyUnit.currentHP);
+		enemyHUD.SetShield(enemyUnit.currentShield);
 		dialogueText.text = "L'attaque a marché";
 
 		yield return new WaitForSeconds(2f);
@@ -105,19 +106,19 @@ public class BattleSystem : MonoBehaviour
 		{
 			dialogueText.text = "Vous avez gagné le combat!";
 			
-			if (enemyUnit.unitName == "Zorg")
+			if (enemyUnit.unitLevel >= 3)
 			{
 				playerUnit.player.coin += 100;
 				playerUnit.player.exp += 20;
 			}
 		
-			if (enemyUnit.unitName == "T-800")
+			if (enemyUnit.unitLevel >= 8)
 			{
 				playerUnit.player.coin += 250;
 				playerUnit.player.exp += 40;
 			}
 		
-			if (enemyUnit.unitName == "T-1000")
+			if (enemyUnit.unitLevel >= 15)
 			{
 				playerUnit.player.coin += 500;
 				playerUnit.player.exp += 50;

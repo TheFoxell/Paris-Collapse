@@ -14,6 +14,7 @@ public class Unit : MonoBehaviour
 
 	public int maxHP;
 	public int currentHP;
+	public int maxShield;
 	public int currentShield;
 
 
@@ -25,12 +26,14 @@ public class Unit : MonoBehaviour
 			unitLevel = player.level;
 			currentHP = player.health;
 			currentShield = player.shield;
+			maxShield = player.maxShield;
 		}
 	}
 
 	void Update()
 	{
 		player.health = currentHP;
+		player.shield = currentShield;
 	}
 
 	public bool TakeDamage(int dmg)

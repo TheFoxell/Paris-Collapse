@@ -17,6 +17,7 @@ public class BattleHUD : MonoBehaviour
 		levelText.text = "Lvl " + unit.unitLevel;
 		hpSlider.maxValue = unit.maxHP;
 		hpSlider.value = unit.currentHP;
+		shieldSlider.maxValue = unit.maxShield;
 		shieldSlider.value = unit.currentShield;
 	}
 

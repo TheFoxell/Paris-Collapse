@@ -1171,6 +1171,7 @@ MonoBehaviour:
   damage: 10
   maxHP: 100
   currentHP: 100
+  maxShield: 100
   currentShield: 25
 --- !u!212 &438186634
 SpriteRenderer:
@@ -1459,6 +1460,7 @@ MonoBehaviour:
   damage: 15
   maxHP: 100
   currentHP: 100
+  maxShield: 0
   currentShield: 0
 --- !u!1 &641731304
 GameObject:

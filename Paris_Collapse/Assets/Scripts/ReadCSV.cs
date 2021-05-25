@@ -11,6 +11,8 @@ public class ReadCSV : MonoBehaviour
     public List<Item> itemListPlayer;
     public List<Item> itemList;
     public List<GameObject> ListSlots = null;
+    public Item itemSelect;
+    public ItemUI itemUI;
 
 
     public string path = "Assets/Data/playerInventory.csv";
@@ -24,6 +26,7 @@ public class ReadCSV : MonoBehaviour
         ReadTextCSV();
         AddItems();
     }
+    
     
     //Lit le fichier .csv et créer une liste d'item
     void ReadTextCSV()
@@ -79,6 +82,34 @@ public class ReadCSV : MonoBehaviour
     public List<Item> GetitemListPlayer()
     {
         return itemListPlayer;; 
+    }
+
+
+    public void DeleteItem()
+    {
+        itemSelect = itemUI.itemSelect;
+        string itemName = itemSelect.name;
+        
+        List<string> ListItems = new List<string>();
+        using (StreamReader sr = new StreamReader(path))        //Créer la liste d'item
+        {
+            string line = sr.ReadLine();
+            while (line != null)
+            {
+                ListItems.Add(line);
+                line = sr.ReadLine();
+            }
+        }
+        ListItems.Remove(itemName); //Suppression de l'item dans la liste
+        itemListPlayer.Remove(itemSelect);
+        using (StreamWriter sw = new StreamWriter(path))        // Actualisation 
+        {
+            foreach (var item in ListItems)
+            {
+                sw.WriteLine(item);
+            }
+        }
+
     }
     
 }

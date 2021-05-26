@@ -278,6 +278,7 @@ MonoBehaviour:
   itemSelect: {fileID: 0}
   itemUI: {fileID: 0}
   path: Assets/Data/playerInventory.csv
+  InventoryName: 
   sprites: []
 --- !u!1 &41001206
 GameObject:
@@ -3493,6 +3494,7 @@ MonoBehaviour:
   itemSelect: {fileID: 0}
   itemUI: {fileID: 522807441}
   path: Assets/Data/playerInventory.csv
+  InventoryName: Inventaire
   sprites: []
 --- !u!1 &1738966791
 GameObject:

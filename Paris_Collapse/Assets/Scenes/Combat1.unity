@@ -1440,6 +1440,7 @@ MonoBehaviour:
   shield: 25
   health: 75
   coin: 500
+  damage: 15
   saving: 1
   regeneration: 5
 --- !u!114 &559461374
@@ -1457,7 +1458,7 @@ MonoBehaviour:
   player: {fileID: 559461373}
   unitName: Player
   unitLevel: 0
-  damage: 15
+  damage: 0
   maxHP: 100
   currentHP: 100
   maxShield: 0

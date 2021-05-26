@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BattleHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BattleHUD.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Inventaire.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Inventaire.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unit.cs" afterDir="false" />
     </list>
@@ -57,16 +60,18 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
       <option value="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ExpBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
       <option value="$PROJECT_DIR$/Assets/BattleHUD.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ItemUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ReadCSV : MonoBehaviour
@@ -16,6 +17,7 @@ public class ReadCSV : MonoBehaviour
 
 
     public string path = "Assets/Data/playerInventory.csv";
+    public string InventoryName;
     
     
     public List<Sprite> sprites;
@@ -26,8 +28,8 @@ public class ReadCSV : MonoBehaviour
         ReadTextCSV();
         AddItems();
     }
-    
-    
+
+
     //Lit le fichier .csv et créer une liste d'item
     void ReadTextCSV()
     {
@@ -60,6 +62,16 @@ public class ReadCSV : MonoBehaviour
 
     void AddItems()
     {
+        foreach (var slot in ListSlots)
+        {
+            if (slot.GetComponent<Image>().enabled)    //Si not enabled
+            {
+                slot.GetComponent<Image>().enabled = false;          // set enabled true
+                slot.GetComponent<Image>().sprite = null;      // set image item to slot
+            }
+        }
+        
+        
         foreach (var item in itemListPlayer)
         {
             Sprite slotImage = item.icon;
@@ -109,7 +121,8 @@ public class ReadCSV : MonoBehaviour
                 sw.WriteLine(item);
             }
         }
-
+        
+        SceneManager.LoadScene(InventoryName);
     }
     
 }

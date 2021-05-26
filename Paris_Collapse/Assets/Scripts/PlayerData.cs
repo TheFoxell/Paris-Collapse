@@ -12,6 +12,7 @@ public class PlayerData
     public int exp;
     public int expMax;
     public int shield;
+    public int damage;
 
 
     public PlayerData(Player player)
@@ -22,6 +23,7 @@ public class PlayerData
         exp = player.exp;
         expMax = player.expMax;
         shield = player.shield;
+        damage = player.damage;
         
         
 

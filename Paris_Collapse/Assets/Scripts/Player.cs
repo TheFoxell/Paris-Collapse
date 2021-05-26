@@ -26,6 +26,8 @@ public class Player : MonoBehaviour
     public int health = 100;
     public int coin = 500;
 
+    public int damage = 15;
+
     public bool saving = true;
 
     private float timestamp = 0.0f;
@@ -47,6 +49,7 @@ public class Player : MonoBehaviour
         exp = data.exp;
         expMax = data.expMax;
         shield = data.shield;
+        damage = data.damage;
 
         Vector3 position;
         position.x = data.position[0];

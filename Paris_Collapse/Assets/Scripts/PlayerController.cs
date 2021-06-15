@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     PlayerMotor motor;
     
     
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -35,13 +36,14 @@ public class PlayerController : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100, movementMask))
             {
                 // Deplace au point cliqué
+
                 motor.MoveToPoint(hit.point);
-
-
+                
                 RemoveFocus();
             }
         }
-
+        
+        
         if (Input.GetMouseButtonDown(1))
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);

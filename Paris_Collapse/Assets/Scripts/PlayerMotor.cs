@@ -11,11 +11,24 @@ public class PlayerMotor : MonoBehaviour
     Transform target;
     NavMeshAgent agent;
     
+    public int Speed = 5;
+    private Vector3 DirectionDeplacement = Vector3.zero;
+    private CharacterController Player;
+    public int Sensi;
+    public int Jump = 5;
+    public int gravite = 20;
+    private Animator Anim;
+    public int RunSpeed = 10;
+    public bool Inwalk;
+    
     
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        
+        Player = GetComponent<CharacterController>();
+        Anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -29,7 +42,11 @@ public class PlayerMotor : MonoBehaviour
 
     public void MoveToPoint(Vector3 point)
     {
+        Anim.SetBool("Walk",true);
+        Anim.SetBool("Run",false);
+        
         agent.SetDestination(point);
+        
     }
 
     public void FollowTarget (Interactable newTarget)

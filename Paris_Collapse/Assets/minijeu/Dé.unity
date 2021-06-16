@@ -267,6 +267,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66fb6b5c0e2877e4384a5c70d4fa14ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &450347324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 450347326}
+  - component: {fileID: 450347325}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &450347325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450347324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7502586f71bc15b44bad9f68c778aab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: {fileID: 0}
+  maxHealth: 100
+  healthBar: {fileID: 0}
+  shieldBar: {fileID: 0}
+  expBar: {fileID: 0}
+  level: 1
+  expMax: 100
+  exp: 90
+  maxShield: 100
+  shield: 25
+  health: 100
+  coin: 500
+  damage: 15
+  saving: 1
+  regeneration: 5
+--- !u!4 &450347326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450347324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 327.31384, y: 301.73523, z: -134.18225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &649092967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,6 +1320,7 @@ MonoBehaviour:
   face: 5
   force: 15
   txt: {fileID: 1422006779}
+  player: {fileID: 0}
 --- !u!1 &1926371209
 GameObject:
   m_ObjectHideFlags: 0

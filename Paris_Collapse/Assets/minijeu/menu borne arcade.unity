@@ -186,8 +186,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294901939
-  m_fontColor: {r: 0.7015796, g: 0, b: 1, a: 1}
+    rgba: 4294953984
+  m_fontColor: {r: 0, g: 0.7994144, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 485301598}
   - component: {fileID: 485301597}
   - component: {fileID: 485301596}
+  - component: {fileID: 485301599}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -335,7 +336,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 485301597}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 485301599}
+        m_MethodName: Load
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: main
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &485301597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,6 +385,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485301594}
   m_CullTransparentMesh: 0
+--- !u!114 &485301599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485301594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b2733548c92d408a59484ff80a482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &606510389
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,13 +447,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 34dbb721142e66841871598d3586f9a5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1f90b583d37ba4e4483e5ce253372ecd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -710,7 +734,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1276366357}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 485301599}
+        m_MethodName: Load
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "nombreal\xE9atoire"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1276366357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,7 +864,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1296084386}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 485301599}
+        m_MethodName: Load
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "D\xE9"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1296084386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,8 +978,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294901938
-  m_fontColor: {r: 0.6983428, g: 0, b: 1, a: 1}
+    rgba: 4294953984
+  m_fontColor: {r: 0, g: 0.8, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1065,8 +1111,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294901938
-  m_fontColor: {r: 0.6983428, g: 0, b: 1, a: 1}
+    rgba: 4294953984
+  m_fontColor: {r: 0, g: 0.8, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

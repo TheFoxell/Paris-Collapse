@@ -13,5 +13,6 @@ public class Item : ScriptableObject
     public int pre = 0;
     public int cri = 0;
     public int health = 0;
+    public int shield = 0;
     public int price = 0;
 }

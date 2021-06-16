@@ -27,6 +27,7 @@ public class Unit : MonoBehaviour
 			currentHP = player.health;
 			currentShield = player.shield;
 			maxShield = player.maxShield;
+			damage = player.damage;
 		}
 	}
 

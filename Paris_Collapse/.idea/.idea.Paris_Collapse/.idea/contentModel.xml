@@ -22,6 +22,7 @@
         <e p="Scripts" t="Include">
           <e p="camera.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
+          <e p="Capacity.cs" t="Include" />
           <e p="car.cs" t="Include" />
           <e p="DebugCommand.cs" t="Include" />
           <e p="DebugController.cs" t="Include" />

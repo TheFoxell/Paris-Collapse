@@ -858,6 +858,7 @@ GameObject:
   - component: {fileID: 391942660}
   - component: {fileID: 391942661}
   - component: {fileID: 391942662}
+  - component: {fileID: 391942663}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -925,7 +926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391942655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 520.1, y: 0, z: -94.1}
+  m_LocalPosition: {x: 520.1, y: 4.2, z: -94.1}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 775201489}
@@ -984,8 +985,24 @@ MonoBehaviour:
   shield: 25
   health: 75
   coin: 500
+  damage: 15
   saving: 1
   regeneration: 5
+--- !u!114 &391942663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391942655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8a74a635dec324ea8743ccb328d68c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  csv: {fileID: 0}
+  item: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &396984271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,7 +1785,6 @@ GameObject:
   - component: {fileID: 775201489}
   - component: {fileID: 775201488}
   - component: {fileID: 775201487}
-  - component: {fileID: 775201490}
   m_Layer: 0
   m_Name: GFX
   m_TagString: Untagged
@@ -1837,18 +1853,6 @@ Transform:
   m_Father: {fileID: 391942659}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &775201490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775201485}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92809fee7043ef14381d34817aa1cb8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &809169367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,7 +1866,6 @@ GameObject:
   - component: {fileID: 809169371}
   - component: {fileID: 809169370}
   - component: {fileID: 809169369}
-  - component: {fileID: 809169368}
   m_Layer: 0
   m_Name: ItemDoubleCheese
   m_TagString: Untagged
@@ -1870,21 +1873,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!114 &809169368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809169367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0778aa6681ec043bc3f40aa0d6cafe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 12
-  interactionTransform: {fileID: 809169373}
-  hasInteracted: 0
 --- !u!114 &809169369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,7 +1888,7 @@ MonoBehaviour:
   radius: 12
   interactionTransform: {fileID: 809169373}
   hasInteracted: 0
-  item: {fileID: 11400000, guid: 10e4fd9b6bce0c14aa5aa8440c86489c, type: 2}
+  item: {fileID: 11400000, guid: 2840b29e1b777114a8bbe9aa9db55c30, type: 2}
 --- !u!65 &809169370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2458,7 +2446,6 @@ GameObject:
   - component: {fileID: 1004042613}
   - component: {fileID: 1004042612}
   - component: {fileID: 1004042611}
-  - component: {fileID: 1004042610}
   m_Layer: 0
   m_Name: ItemAK48
   m_TagString: Untagged
@@ -2466,21 +2453,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!114 &1004042610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004042609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0778aa6681ec043bc3f40aa0d6cafe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 12
-  interactionTransform: {fileID: 1004042615}
-  hasInteracted: 0
 --- !u!114 &1004042611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2496,7 +2468,7 @@ MonoBehaviour:
   radius: 12
   interactionTransform: {fileID: 1004042615}
   hasInteracted: 0
-  item: {fileID: 11400000, guid: 940db81c207e9ca4fbc2b196fd7bcc34, type: 2}
+  item: {fileID: 11400000, guid: d6fbdd80e9819a94dbce573a6cd8e832, type: 2}
 --- !u!65 &1004042612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2687,7 +2659,6 @@ GameObject:
   - component: {fileID: 1289664785}
   - component: {fileID: 1289664784}
   - component: {fileID: 1289664788}
-  - component: {fileID: 1289664789}
   m_Layer: 0
   m_Name: ItemCoca
   m_TagString: Untagged
@@ -2784,22 +2755,7 @@ MonoBehaviour:
   radius: 12
   interactionTransform: {fileID: 1289664787}
   hasInteracted: 0
-  item: {fileID: 11400000, guid: 33cf4db7f241dcc4498b895a2aa71852, type: 2}
---- !u!114 &1289664789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289664783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0778aa6681ec043bc3f40aa0d6cafe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 12
-  interactionTransform: {fileID: 1289664787}
-  hasInteracted: 0
+  item: {fileID: 11400000, guid: 3ba170ff39fb3ac49b1e66987cdf7f6c, type: 2}
 --- !u!1 &1483274936
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,7 +3071,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545763450}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e95eaaf4a914db4ebfa2e2d7d2ec831, type: 3}
   m_Name: 

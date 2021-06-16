@@ -12,7 +12,7 @@ public class ItemUI : MonoBehaviour
     public List<Item> ListItem;
 
     public Item itemSelect;
-    
+
     
     public void ChangeImage(GameObject slot)
     {
@@ -28,6 +28,6 @@ public class ItemUI : MonoBehaviour
 
         InfoUI.GetComponent<Image>().sprite = tmp;
     }
-
+    
 
 }

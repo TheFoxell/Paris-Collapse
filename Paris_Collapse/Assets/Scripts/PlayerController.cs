@@ -15,19 +15,33 @@ public class PlayerController : MonoBehaviour
     Camera cam;
     PlayerMotor motor;
     
-    
-    
+    public int Speed = 5;
+    private Vector3 DirectionDeplacement = Vector3.zero;
+    private CharacterController Player;
+    public int Sensi;
+    public int Jump = 5;
+    public int gravite = 20;
+    private Animator Anim;
+    public int RunSpeed = 10;
+    public bool Inwalk;
+    private Vector3 tmp;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         cam = Camera.main;
         motor = GetComponent<PlayerMotor>();
+        
+        Player = GetComponent<CharacterController>();
+        Anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
         // Si on appuie sur le bouton gauche de la souris
         if (Input.GetMouseButtonDown(0))
         {
@@ -35,15 +49,26 @@ public class PlayerController : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 100, movementMask))
             {
+                tmp = Input.mousePosition;
                 // Deplace au point cliqué
-
-                motor.MoveToPoint(hit.point);
+                Anim.SetBool("Walk", true);
                 
+                Debug.Log("Walking");
+
+                Inwalk = true;
+                
+                motor.MoveToPoint(hit.point);
+
                 RemoveFocus();
             }
         }
-        
-        
+        if (tmp.x == transform.position.x)
+            Inwalk = false;
+
+        if (!Inwalk)
+            Anim.SetBool("Walk",false);
+
+
         if (Input.GetMouseButtonDown(1))
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);

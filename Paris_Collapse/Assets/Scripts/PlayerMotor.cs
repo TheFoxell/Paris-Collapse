@@ -42,11 +42,7 @@ public class PlayerMotor : MonoBehaviour
 
     public void MoveToPoint(Vector3 point)
     {
-        Anim.SetBool("Walk",true);
-        Anim.SetBool("Run",false);
-        
         agent.SetDestination(point);
-        
     }
 
     public void FollowTarget (Interactable newTarget)

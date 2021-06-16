@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c1976990cebc04a84cc2c9f0bb782d, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  name: Shotgun
+  icon: {fileID: 21300000, guid: 4c6f339e125c7f4439929a37ab9abaef, type: 3}
+  image: {fileID: 21300000, guid: e3c5b56a7e5abfc47bc3ccf096a98ef2, type: 3}
+  isDefaultItem: 0
+  deg: 80
+  pen: 50
+  pre: 15
+  cri: 5
+  health: 0
+  shield: 0
+  price: 300

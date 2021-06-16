@@ -985,6 +985,7 @@ MonoBehaviour:
   shield: 25
   health: 75
   coin: 500
+  damage: 15
   saving: 1
   regeneration: 5
 --- !u!114 &391942663
@@ -999,6 +1000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8a74a635dec324ea8743ccb328d68c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  csv: {fileID: 0}
+  item: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &396984271
 GameObject:
   m_ObjectHideFlags: 0

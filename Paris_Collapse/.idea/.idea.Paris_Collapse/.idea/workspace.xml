@@ -20,17 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville/Idle+char.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville/Idle+char.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMotor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMotor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/player/perso.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/perso.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robots/robot.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/robots/robot.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robots/robot2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/robots/robot2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robots/robot3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/robots/robot3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +142,7 @@
       <workItem from="1620919710979" duration="5372000" />
       <workItem from="1621954612148" duration="4272000" />
       <workItem from="1623762943814" duration="4407000" />
+      <workItem from="1623831618182" duration="794000" />
     </task>
     <servers />
   </component>

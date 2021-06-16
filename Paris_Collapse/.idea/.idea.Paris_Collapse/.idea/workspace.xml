@@ -22,14 +22,8 @@
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/bulletproof vest.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/bulletproof vest.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/chips.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/pistol.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/pistol.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/pizza.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/pizza.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/shotgun.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/shotgun.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/sniper.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InterfaceUI/itemPict/sniper.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Inventaire.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Inventaire.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +58,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ExpBar.cs" />
       <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/BattleHUD.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ItemUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
       <option value="$PROJECT_DIR$/Assets/Unit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ItemUI.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
@@ -152,7 +146,7 @@
       <workItem from="1620215921377" duration="5497000" />
       <workItem from="1620919710979" duration="5372000" />
       <workItem from="1621954612148" duration="4272000" />
-      <workItem from="1623830546844" duration="3107000" />
+      <workItem from="1623830546844" duration="4259000" />
     </task>
     <servers />
   </component>

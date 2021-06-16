@@ -26,12 +26,15 @@ public class Player : MonoBehaviour
     public int health = 100;
     public int coin = 500;
 
-    public int damage = 15;
-
     public bool saving = true;
 
     private float timestamp = 0.0f;
     public int regeneration = 5;
+
+    public int damage = 15;
+    public int pen = 10;
+    public int pre = 60;
+    public int cri = 5;
     
     
     
@@ -50,6 +53,9 @@ public class Player : MonoBehaviour
         expMax = data.expMax;
         shield = data.shield;
         damage = data.damage;
+        pen = data.pen;
+        pre = data.pre;
+        cri = data.cri;
 
         Vector3 position;
         position.x = data.position[0];

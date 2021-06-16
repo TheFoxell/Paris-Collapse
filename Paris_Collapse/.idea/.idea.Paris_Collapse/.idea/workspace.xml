@@ -20,16 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/storeInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/storeInventory.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/minijeu/Dé.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/Dé.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/minijeu/menu borne arcade.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/menu borne arcade.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unit.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/SwitchScene.cs" />
       <option value="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
@@ -143,7 +144,7 @@
       <workItem from="1623762943814" duration="4407000" />
       <workItem from="1623831618182" duration="794000" />
       <workItem from="1623848106105" duration="6034000" />
-      <workItem from="1623879631060" duration="2692000" />
+      <workItem from="1623879631060" duration="5656000" />
     </task>
     <servers />
   </component>

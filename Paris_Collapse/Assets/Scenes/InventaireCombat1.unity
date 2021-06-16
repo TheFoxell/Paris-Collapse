@@ -216,8 +216,8 @@ RectTransform:
   - {fileID: 722253842}
   - {fileID: 1458597446}
   - {fileID: 490450905}
-  - {fileID: 1202914973}
   - {fileID: 1334851441}
+  - {fileID: 1202914973}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -255,6 +255,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 940db81c207e9ca4fbc2b196fd7bcc34, type: 2}
   - {fileID: 11400000, guid: 33cf4db7f241dcc4498b895a2aa71852, type: 2}
   - {fileID: 11400000, guid: 10e4fd9b6bce0c14aa5aa8440c86489c, type: 2}
+  - {fileID: 11400000, guid: 4389311a26659c747a72790e6ce82d5c, type: 2}
+  - {fileID: 11400000, guid: f7c2cbb3ec818a246ad52381ae011d26, type: 2}
+  - {fileID: 11400000, guid: 3ba170ff39fb3ac49b1e66987cdf7f6c, type: 2}
+  - {fileID: 11400000, guid: 2840b29e1b777114a8bbe9aa9db55c30, type: 2}
+  - {fileID: 11400000, guid: 158f5d09fc0e4b243873791712f58c63, type: 2}
+  - {fileID: 11400000, guid: f3faceb96f42e6b4dac66641f0cd2571, type: 2}
+  - {fileID: 11400000, guid: e37676a25b9b34042b8f8486d229293f, type: 2}
+  - {fileID: 11400000, guid: d6fbdd80e9819a94dbce573a6cd8e832, type: 2}
+  - {fileID: 11400000, guid: 280a0e2f361914a479ac6664b39a4a8f, type: 2}
+  - {fileID: 11400000, guid: 29223d57fd7e9f74bb92fda6679339e1, type: 2}
+  - {fileID: 11400000, guid: 5da3c36fd542b264b86caafa12082556, type: 2}
+  - {fileID: 11400000, guid: e2caa00f6d0e52f49b66d7df2f7d352f, type: 2}
   ListSlots:
   - {fileID: 1093037325}
   - {fileID: 1403916077}
@@ -1073,6 +1085,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288381644}
   m_CullTransparentMesh: 0
+--- !u!1 &307477105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 307477107}
+  - component: {fileID: 307477106}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &307477106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307477105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7502586f71bc15b44bad9f68c778aab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: {fileID: 0}
+  maxHealth: 100
+  healthBar: {fileID: 0}
+  shieldBar: {fileID: 0}
+  expBar: {fileID: 0}
+  level: 1
+  expMax: 100
+  exp: 90
+  maxShield: 100
+  shield: 25
+  health: 100
+  coin: 500
+  saving: 1
+  regeneration: 5
+  damage: 15
+  pen: 10
+  pre: 10
+  cri: 5
+--- !u!4 &307477107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307477105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 296.63727, y: 201.15062, z: -512.5852}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &319266954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1657,6 +1730,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 940db81c207e9ca4fbc2b196fd7bcc34, type: 2}
   - {fileID: 11400000, guid: 33cf4db7f241dcc4498b895a2aa71852, type: 2}
   - {fileID: 11400000, guid: 10e4fd9b6bce0c14aa5aa8440c86489c, type: 2}
+  - {fileID: 11400000, guid: 4389311a26659c747a72790e6ce82d5c, type: 2}
+  - {fileID: 11400000, guid: f7c2cbb3ec818a246ad52381ae011d26, type: 2}
+  - {fileID: 11400000, guid: 3ba170ff39fb3ac49b1e66987cdf7f6c, type: 2}
+  - {fileID: 11400000, guid: 2840b29e1b777114a8bbe9aa9db55c30, type: 2}
+  - {fileID: 11400000, guid: 158f5d09fc0e4b243873791712f58c63, type: 2}
+  - {fileID: 11400000, guid: f3faceb96f42e6b4dac66641f0cd2571, type: 2}
+  - {fileID: 11400000, guid: e37676a25b9b34042b8f8486d229293f, type: 2}
+  - {fileID: 11400000, guid: d6fbdd80e9819a94dbce573a6cd8e832, type: 2}
+  - {fileID: 11400000, guid: 280a0e2f361914a479ac6664b39a4a8f, type: 2}
+  - {fileID: 11400000, guid: 29223d57fd7e9f74bb92fda6679339e1, type: 2}
+  - {fileID: 11400000, guid: 5da3c36fd542b264b86caafa12082556, type: 2}
+  - {fileID: 11400000, guid: e2caa00f6d0e52f49b66d7df2f7d352f, type: 2}
   itemSelect: {fileID: 0}
 --- !u!1 &609837189
 GameObject:
@@ -2760,7 +2845,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 31507651}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3044,7 +3129,6 @@ GameObject:
   - component: {fileID: 1334851443}
   - component: {fileID: 1334851442}
   - component: {fileID: 1334851447}
-  - component: {fileID: 1334851446}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3065,12 +3149,12 @@ RectTransform:
   m_Children:
   - {fileID: 51229371}
   m_Father: {fileID: 31507651}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 180, y: 79}
-  m_SizeDelta: {x: 92.28241, y: 21.398804}
+  m_SizeDelta: {x: -623.7176, y: -382.6012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1334851442
 MonoBehaviour:
@@ -3146,6 +3230,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1334851447}
+        m_MethodName: UseCapacity
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1334851444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3183,32 +3278,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334851440}
   m_CullTransparentMesh: 0
---- !u!114 &1334851446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334851440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7502586f71bc15b44bad9f68c778aab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unit: {fileID: 0}
-  maxHealth: 100
-  healthBar: {fileID: 0}
-  shieldBar: {fileID: 0}
-  expBar: {fileID: 0}
-  level: 1
-  expMax: 100
-  exp: 90
-  maxShield: 100
-  shield: 25
-  health: 100
-  coin: 500
-  saving: 1
-  regeneration: 5
 --- !u!114 &1334851447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3223,7 +3292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   csv: {fileID: 1334851442}
   item: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 307477106}
 --- !u!1 &1352958336
 GameObject:
   m_ObjectHideFlags: 0

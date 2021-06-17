@@ -57,6 +57,9 @@ public class Player : MonoBehaviour
         pre = data.pre;
         cri = data.cri;
 
+        maxHealth = data.maxHealth;
+        maxShield = data.maxShield; 
+
         Vector3 position;
         position.x = data.position[0];
         position.y = data.position[1];

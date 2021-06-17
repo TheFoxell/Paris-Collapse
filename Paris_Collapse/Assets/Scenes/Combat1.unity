@@ -1132,6 +1132,7 @@ GameObject:
   - component: {fileID: 438186632}
   - component: {fileID: 438186634}
   - component: {fileID: 438186633}
+  - component: {fileID: 438186635}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1167,12 +1168,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   unitName: Zorg
-  unitLevel: 5
+  unitLevel: 1
   damage: 10
   maxHP: 100
   currentHP: 100
   maxShield: 100
   currentShield: 25
+  pen: 0
+  pre: 0
+  cri: 0
 --- !u!212 &438186634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1223,6 +1227,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &438186635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438186631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ec5c68dedd6304692d3d0f8ad89aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &471520733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,9 +1456,12 @@ MonoBehaviour:
   shield: 25
   health: 75
   coin: 500
-  damage: 15
   saving: 1
   regeneration: 5
+  damage: 15
+  pen: 10
+  pre: 60
+  cri: 5
 --- !u!114 &559461374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1463,6 +1482,9 @@ MonoBehaviour:
   currentHP: 100
   maxShield: 0
   currentShield: 0
+  pen: 0
+  pre: 0
+  cri: 0
 --- !u!1 &641731304
 GameObject:
   m_ObjectHideFlags: 0

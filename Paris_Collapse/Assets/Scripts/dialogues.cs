@@ -54,7 +54,7 @@ public class dialogues : MonoBehaviour
          textDisplay.text = "";
          continueButton.SetActive(false);
          if (SceneManager.GetActiveScene().name == "Intro" )
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("ville");
       }
    }
 }

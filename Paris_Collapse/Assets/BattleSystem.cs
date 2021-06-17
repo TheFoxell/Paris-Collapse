@@ -36,7 +36,7 @@ public class BattleSystem : MonoBehaviour
     {
 	    if (state == BattleState.LOST || state == BattleState.WON)
 	    {
-		    SceneManager.LoadScene("GameScene");
+		    SceneManager.LoadScene("ville");
 	    }
     }
 
@@ -161,7 +161,7 @@ public class BattleSystem : MonoBehaviour
 	
 	public void OnFuiteButton()
 	{
-		SceneManager.LoadScene("GameScene");
+		SceneManager.LoadScene("ville");
 
 	}
 	

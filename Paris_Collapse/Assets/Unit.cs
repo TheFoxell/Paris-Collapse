@@ -17,6 +17,11 @@ public class Unit : MonoBehaviour
 	public int maxShield;
 	public int currentShield;
 
+	public int pen;
+	public int pre;
+	public int cri;
+
+
 
 	void Start()
 	{
@@ -28,6 +33,9 @@ public class Unit : MonoBehaviour
 			currentShield = player.shield;
 			maxShield = player.maxShield;
 			damage = player.damage;
+			pen = player.pen;
+			pre = player.pre;
+			cri = player.cri;
 		}
 	}
 
@@ -39,14 +47,20 @@ public class Unit : MonoBehaviour
 
 	public bool TakeDamage(int dmg)
 	{
-		if (currentShield != 0 && currentShield < dmg)
+		float rdm = Random.Range(0f, 100f);
+		if (rdm < cri)
+			dmg += dmg;
+
+
+
+		if (currentShield != 0 && currentShield < dmg+(pen/4))
 		{
 			currentShield = 0;
 			dmg -= currentShield;
 			currentHP -= dmg;
 		}
-		if (currentShield != 0 && currentShield >= dmg)
-			currentShield -= dmg;
+		if (currentShield != 0 && currentShield >= dmg+(pen/4))
+			currentShield -= dmg+(pen/4);
 		else
 			currentHP -= dmg;
 

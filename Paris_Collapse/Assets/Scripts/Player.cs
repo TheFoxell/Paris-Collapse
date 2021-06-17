@@ -110,12 +110,9 @@ public class Player : MonoBehaviour
         if(expBar != null)
             expBar.SetExp(exp);
 
-        if (Input.GetKeyDown(KeyCode.P))
-            StopSaving();
-
         if(saving)
             SavePlayer();
-        
+
         UpdateLevel();
         
     }
@@ -134,6 +131,10 @@ public class Player : MonoBehaviour
     {
         saving = !saving;
         SaveSystem.Delete("player");
+        SaveSystem.Delete("zorg");
+        SaveSystem.Delete("t800");
+        SaveSystem.Delete("t1000");
+        SceneManager.LoadScene("Intro");
     }
 
     void Regenerate()

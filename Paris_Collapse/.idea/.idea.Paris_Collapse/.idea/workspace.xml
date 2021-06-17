@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BattleSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreText.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreText.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +42,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Snake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BuyButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Quest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SwitchScene.cs" />
-      <option value="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" />
-      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
-    </changedPaths>
+    <setting file="file://$PROJECT_DIR$/Assets/BuyButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,7 +68,7 @@
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -144,6 +132,7 @@
       <workItem from="1623848106105" duration="6034000" />
       <workItem from="1623879631060" duration="5656000" />
       <workItem from="1623917190425" duration="1279000" />
+      <workItem from="1623937658078" duration="1000" />
     </task>
     <servers />
   </component>

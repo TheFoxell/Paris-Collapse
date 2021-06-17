@@ -53,6 +53,31 @@ public class Unit : MonoBehaviour
 			player.health = currentHP;
 			player.shield = currentShield;
 		}
+		else
+		{
+			if (currentHP <= 0)
+			{
+				switch (unitLevel)
+				{
+					case 1 :
+						unitLevel += 24;
+						UpLevel();
+						break;
+					case 25 :
+						unitLevel += 25;
+						UpLevel();
+						break;
+					case 50 :
+						unitLevel += 25;
+						UpLevel();
+						break;
+					case 75:
+						currentHP = maxHP;
+						currentShield = maxShield;
+						break;
+				}
+			}
+		}
 
 		if (Input.GetKeyDown(KeyCode.P))
 			StopSaving();
@@ -64,7 +89,9 @@ public class Unit : MonoBehaviour
 	public void StopSaving()
 	{
 		saving = !saving;
-		SaveSystem.Delete("player");
+		SaveSystem.Delete("zorg");
+		SaveSystem.Delete("t800");
+		SaveSystem.Delete("t1000");
 	}
 	
 	public void LoadUnit()
@@ -129,6 +156,23 @@ public class Unit : MonoBehaviour
 		currentHP += amount;
 		if (currentHP > maxHP)
 			currentHP = maxHP;
+	}
+
+	public void UpLevel()
+	{
+		currentHP = maxHP;
+		currentShield = maxShield;
+		
+		
+		maxHP += maxHP;
+		currentHP += currentHP;
+		
+		maxShield += maxShield;
+		currentShield += currentShield;
+		damage += damage;
+		pen += pen;
+		pre += pre;
+		cri += cri;
 	}
 	
 }

@@ -17,6 +17,9 @@ public class PlayerData
     public int pre;
     public int cri;
 
+    public int maxHealth;
+    public int maxShield;
+
 
     public PlayerData(Player player)
     {
@@ -30,6 +33,9 @@ public class PlayerData
         pen = player.pen;
         pre = player.pre;
         cri = player.cri;
+
+        maxHealth = player.maxHealth;
+        maxShield = player.maxShield;
         
         
 

@@ -57,6 +57,7 @@
           <e p="ShieldBar.cs" t="Include" />
           <e p="Snake.cs" t="Include" />
           <e p="SpawnFood.cs" t="Include" />
+          <e p="UnitData.cs" t="Include" />
         </e>
         <e p="SwitchScene.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">

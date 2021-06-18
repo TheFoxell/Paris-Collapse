@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FastFood.unity
     guid: 9d62b6a32e3ea914a851a80cecd9d8f6
+  - enabled: 1
+    path: Assets/Scenes/MenuPause.unity
+    guid: 7fa0d0d2cebd1c74aae17fa732738d1d
   m_configObjects: {}

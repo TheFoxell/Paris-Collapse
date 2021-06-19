@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fbx/materiaux/I_Motocycle_Nr_002_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fbx/materiaux/I_Motocycle_Nr_002_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fbx/materiaux/I_Motocycle_Nr_018_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fbx/materiaux/I_Motocycle_Nr_018_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fbx/materiaux/I_Motocycle_Nr_018_2_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fbx/materiaux/I_Motocycle_Nr_018_2_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robots/materiaux.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/robots/materiaux.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +152,7 @@
       <workItem from="1624021855387" duration="108000" />
       <workItem from="1624022067507" duration="17000" />
       <workItem from="1624022277034" duration="181000" />
+      <workItem from="1624029943281" duration="119000" />
     </task>
     <servers />
   </component>

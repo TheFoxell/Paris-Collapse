@@ -29,9 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InventaireCombat3.unity
     guid: 30384938cd7a15c4993f34cf67ad5ba3
-  - enabled: 1
-    path: Assets/Scenes/InventaireCombatPlayer.unity
-    guid: 83199a48b9fef8c4984c7a635f630f3d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: "Assets/minijeu/D\xE9.unity"
     guid: c40b179e07d8aa04a9b0a0606f754335

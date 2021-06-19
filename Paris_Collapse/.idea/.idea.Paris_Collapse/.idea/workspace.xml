@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BattleSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuyButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BuyButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FastFood.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FastFood.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombatBoss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombatBoss.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Store.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ville.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ville.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +66,7 @@
       <option value="$PROJECT_DIR$/Assets/BuyButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Audio.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />

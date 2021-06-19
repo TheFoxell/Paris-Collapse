@@ -124,7 +124,7 @@ public class Player : MonoBehaviour
         {
             exp -= expMax;
             expMax += 50;
-            level += 1;
+            level += 10;
         }
     }
     public void StopSaving()

@@ -24,10 +24,16 @@ public class BattleSystem : MonoBehaviour
 	public BattleHUD enemyHUD;
 
 	public BattleState state;
+	
+	public AudioSource audioSource;
+	public AudioClip audioHeal = null;
+	public AudioClip audioDamagePlayer = null;
+	public AudioClip audioDamageUnit = null;
 
-    // Start is called before the first frame update
+	// Start is called before the first frame update
     void Start()
     {
+	    audioSource = GetComponent<AudioSource>();
 		state = BattleState.START;
 		StartCoroutine(SetupBattle());
     }
@@ -56,6 +62,7 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator PlayerAttack()
 	{
+		audioSource.PlayOneShot(audioDamagePlayer);
 		bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
 		enemyHUD.SetHP(enemyUnit.currentHP);
@@ -78,6 +85,7 @@ public class BattleSystem : MonoBehaviour
 	IEnumerator EnemyTurn()
 	{
 		dialogueText.text = enemyUnit.unitName + " attaque!";
+		audioSource.PlayOneShot(audioDamageUnit);
 
 		yield return new WaitForSeconds(1f);
 
@@ -162,7 +170,6 @@ public class BattleSystem : MonoBehaviour
 	public void OnFuiteButton()
 	{
 		SceneManager.LoadScene("ville");
-
 	}
 	
 	public void OnInventaireButton()
@@ -190,10 +197,11 @@ public class BattleSystem : MonoBehaviour
 
 	public void OnHealButton()
 	{
+		audioSource.PlayOneShot(audioHeal);
 		if (state != BattleState.PLAYERTURN)
 			return;
 
 		StartCoroutine(PlayerHeal());
 	}
-
+	
 }

@@ -135,7 +135,7 @@ public class ReadCSV : MonoBehaviour
             audioSource.PlayOneShot(audioDestroy);
             StartCoroutine(WaitAndLoadDestroy());
         }
-        if (InventoryName == "InventaireCombat1")
+        if (InventoryName == "InventaireCombat1" || InventoryName == "InventaireCombat2" ||InventoryName == "InventaireCombat3" ||InventoryName == "InventaireCombatBoss")
         {
             audioSource.PlayOneShot(audioUse);
             StartCoroutine(WaitAndLoadUse());

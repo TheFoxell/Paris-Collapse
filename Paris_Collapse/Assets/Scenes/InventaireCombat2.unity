@@ -291,6 +291,9 @@ MonoBehaviour:
   itemUI: {fileID: 0}
   path: Assets/Data/playerInventory.csv
   InventoryName: 
+  audioDestroy: {fileID: 0}
+  audioUse: {fileID: 0}
+  audioSource: {fileID: 0}
   sprites: []
 --- !u!1 &41001206
 GameObject:
@@ -3129,6 +3132,7 @@ GameObject:
   - component: {fileID: 1334851443}
   - component: {fileID: 1334851442}
   - component: {fileID: 1334851447}
+  - component: {fileID: 1334851446}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3175,6 +3179,9 @@ MonoBehaviour:
   itemUI: {fileID: 522807441}
   path: Assets/Data/playerInventory.csv
   InventoryName: InventaireCombat2
+  audioDestroy: {fileID: 0}
+  audioUse: {fileID: 8300000, guid: 7bd1bc702956cc7498d14874e76c9af9, type: 3}
+  audioSource: {fileID: 0}
   sprites: []
 --- !u!114 &1334851443
 MonoBehaviour:
@@ -3196,12 +3203,12 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
-    m_HighlightedColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-    m_PressedColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_NormalColor: {r: 1, g: 0, b: 0.970881, a: 1}
+    m_HighlightedColor: {r: 0.98039216, g: 0, b: 0.87450016, a: 1}
+    m_PressedColor: {r: 0.4328274, g: 0, b: 0.5647059, a: 1}
+    m_SelectedColor: {r: 1, g: 0, b: 0.9864793, a: 1}
+    m_DisabledColor: {r: 0.93372107, g: 0, b: 1, a: 1}
+    m_ColorMultiplier: 2.35
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -3278,6 +3285,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334851440}
   m_CullTransparentMesh: 0
+--- !u!82 &1334851446
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334851440}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1334851447
 MonoBehaviour:
   m_ObjectHideFlags: 0

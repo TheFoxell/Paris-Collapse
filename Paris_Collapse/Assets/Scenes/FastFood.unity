@@ -291,6 +291,9 @@ MonoBehaviour:
   itemUI: {fileID: 0}
   path: Assets/Data/foodInventory.csv
   InventoryName: 
+  audioDestroy: {fileID: 0}
+  audioUse: {fileID: 0}
+  audioSource: {fileID: 0}
   sprites: []
 --- !u!1 &41001206
 GameObject:
@@ -2689,6 +2692,7 @@ GameObject:
   - component: {fileID: 1162943947}
   - component: {fileID: 1162943946}
   - component: {fileID: 1162943949}
+  - component: {fileID: 1162943950}
   m_Layer: 5
   m_Name: BuyButton
   m_TagString: Untagged
@@ -2823,6 +2827,104 @@ MonoBehaviour:
   player: {fileID: 1215375366}
   itemToBuy: {fileID: 0}
   path: Assets/Data/playerInventory.csv
+  audioShop: {fileID: 8300000, guid: 980ae1b52a516cb458648178731217e4, type: 3}
+  audioSource: {fileID: 0}
+--- !u!82 &1162943950
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162943944}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1202914972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2938,9 +3040,12 @@ MonoBehaviour:
   shield: 25
   health: 75
   coin: 500
-  damage: 15
   saving: 1
   regeneration: 5
+  damage: 15
+  pen: 10
+  pre: 60
+  cri: 5
 --- !u!4 &1215375367
 Transform:
   m_ObjectHideFlags: 0

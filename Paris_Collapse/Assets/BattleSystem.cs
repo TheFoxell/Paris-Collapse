@@ -181,6 +181,11 @@ public class BattleSystem : MonoBehaviour
 		{
 			SceneManager.LoadScene("InventaireCombat3");
 		}
+		
+		if (enemyUnit.unitName == "Vyktor")
+		{
+			SceneManager.LoadScene("InventaireCombatPlayer");
+		}
 	}
 
 	public void OnHealButton()

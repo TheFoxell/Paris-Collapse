@@ -21,16 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatPlayer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatPlayer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BattleSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventaireCombat3.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +67,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" />
       <option value="$PROJECT_DIR$/Assets/Unit.cs" />
+      <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
@@ -156,6 +153,7 @@
       <workItem from="1623831618182" duration="794000" />
       <workItem from="1623848106105" duration="6034000" />
       <workItem from="1623879631060" duration="5656000" />
+      <workItem from="1624090346277" duration="326000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -18,13 +19,20 @@ public class ReadCSV : MonoBehaviour
 
     public string path = "Assets/Data/playerInventory.csv";
     public string InventoryName;
+
+    public AudioClip audioDestroy = null;
+    public AudioClip audioUse = null;
     
-    
+    public AudioSource audioSource;
+
+
     public List<Sprite> sprites;
     
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        
         ReadTextCSV();
         AddItems();
     }
@@ -122,6 +130,29 @@ public class ReadCSV : MonoBehaviour
             }
         }
         
+        if (InventoryName == "Inventaire" )
+        {
+            audioSource.PlayOneShot(audioDestroy);
+            StartCoroutine(WaitAndLoadDestroy());
+        }
+        if (InventoryName == "InventaireCombat1")
+        {
+            audioSource.PlayOneShot(audioUse);
+            StartCoroutine(WaitAndLoadUse());
+        }
+        
+        
+        
+    }
+
+    private IEnumerator WaitAndLoadDestroy()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(InventoryName);
+    }
+    private IEnumerator WaitAndLoadUse()
+    {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(InventoryName);
     }
     

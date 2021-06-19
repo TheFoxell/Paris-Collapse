@@ -8,6 +8,7 @@ public class Capacity : MonoBehaviour
     public Item item;
     public Player player;
 
+
     public void UseCapacity()
     {
         item = csv.itemSelect;
@@ -25,5 +26,4 @@ public class Capacity : MonoBehaviour
         if (item.cri != 0)
             player.cri += (item.cri / 4);
     }
-
 }

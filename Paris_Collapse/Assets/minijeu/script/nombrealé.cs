@@ -35,7 +35,7 @@ public class nombrealé : MonoBehaviour
 
         if (n == nb)
         {
-            txt.text = "Bravo, trouvez en " + nbCoup + " coups\n SPACE pour rejouer";
+            txt.text = "Bravo, trouvez en " + nbCoup + " coups";
             endGame = true;
             ifText.interactable = false;
         }

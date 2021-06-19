@@ -42,7 +42,8 @@ public class Unit : MonoBehaviour
 		}
 		else
 		{
-			LoadUnit();
+			if (unitName!="Vyktor")
+				LoadUnit();
 		}
 	}
 

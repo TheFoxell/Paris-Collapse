@@ -8,10 +8,19 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ArcadeToGame.cs" t="Include" />
         <e p="Audio.cs" t="Include" />
         <e p="BattleHUD.cs" t="Include" />
         <e p="BattleSystem.cs" t="Include" />
         <e p="BuyButton.cs" t="Include" />
+        <e p="ColorSkies" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="LookCamera.cs" t="Include" />
+              <e p="SkyboxChanger.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="EchapToGame.cs" t="Include" />
         <e p="GameScript.cs" t="Include" />
         <e p="GameToEchap.cs" t="Include" />

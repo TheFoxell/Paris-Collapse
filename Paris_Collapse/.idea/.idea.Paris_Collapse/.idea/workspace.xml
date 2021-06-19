@@ -22,8 +22,12 @@
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatPlayer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatPlayer.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
@@ -49,25 +53,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/BuyButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Quest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UnitData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameToEchap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EchapToGame.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/SwitchScene.cs" />
       <option value="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/EnemySaveSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UnitData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/EchapToGame.cs" />
       <option value="$PROJECT_DIR$/Assets/GameToEchap.cs" />
+      <option value="$PROJECT_DIR$/Assets/ArcadeToGame.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Capacity.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ReadCSV.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unit.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />

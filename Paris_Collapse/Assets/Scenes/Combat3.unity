@@ -1272,7 +1272,6 @@ GameObject:
   - component: {fileID: 438186632}
   - component: {fileID: 438186634}
   - component: {fileID: 438186633}
-  - component: {fileID: 438186635}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1368,18 +1367,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &438186635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438186631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7ec5c68dedd6304692d3d0f8ad89aae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &471520733
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,6 +3947,7 @@ MonoBehaviour:
   audioHeal: {fileID: 8300000, guid: cc0e13c8bd9c95f4d917313d5b78b067, type: 3}
   audioDamagePlayer: {fileID: 8300000, guid: 5e7ebb7d132376847afbdb29481de08e, type: 3}
   audioDamageUnit: {fileID: 8300000, guid: c7ac13268a1f2d447ab3ebff1c3aec10, type: 3}
+  audioVictory: {fileID: 8300000, guid: 963e9684fa0fca6428508aa4215b17a2, type: 3}
 --- !u!4 &1714929644
 Transform:
   m_ObjectHideFlags: 0

@@ -22,7 +22,7 @@ public class AudioMenu : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().name == "ville")
+        if (SceneManager.GetActiveScene().name == "ville" || SceneManager.GetActiveScene().name == "Lose" )
         {
             Destroy(gameObject);
         }

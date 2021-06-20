@@ -29,6 +29,7 @@ public class BattleSystem : MonoBehaviour
 	public AudioClip audioHeal = null;
 	public AudioClip audioDamagePlayer = null;
 	public AudioClip audioDamageUnit = null;
+	public AudioClip audioVictory = null;
 
 	// Start is called before the first frame update
     void Start()
@@ -40,13 +41,27 @@ public class BattleSystem : MonoBehaviour
 
     void Update()
     {
-	    if (state == BattleState.LOST || state == BattleState.WON)
+	    if (state == BattleState.WON && dialogueText.text != "Vous avez gagné le combat! ")
 	    {
-		    SceneManager.LoadScene("ville");
+		    dialogueText.text = "Vous avez gagné le combat! ";
+		    audioSource.PlayOneShot(audioVictory);
+		    StartCoroutine(WaitAndWin());
+	    }
+	    if (state == BattleState.LOST)
+	    {
+		    SceneManager.LoadScene("Lose");
 	    }
     }
 
-	IEnumerator SetupBattle()
+    IEnumerator WaitAndWin()
+    {
+	    yield return new WaitForSeconds(6f);
+	    if (SceneManager.GetActiveScene().name == "CombatBoss")
+		    SceneManager.LoadScene("End");
+	    SceneManager.LoadScene("Chargement");
+    }
+
+    IEnumerator SetupBattle()
 	{
 
 		dialogueText.text = "Vous allez affronter " + enemyUnit.unitName;
@@ -169,7 +184,7 @@ public class BattleSystem : MonoBehaviour
 	
 	public void OnFuiteButton()
 	{
-		SceneManager.LoadScene("ville");
+		SceneManager.LoadScene("Chargement");
 	}
 	
 	public void OnInventaireButton()

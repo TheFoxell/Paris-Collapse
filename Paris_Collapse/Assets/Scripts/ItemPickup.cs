@@ -5,7 +5,14 @@ using UnityEngine;
 public class ItemPickup : Interactable
 {
     public Item item;
+    public AudioSource audioSource;
+    public AudioClip audioPickUp = null;
 
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     public override void Interact()
     {
@@ -16,6 +23,7 @@ public class ItemPickup : Interactable
 
     void PickUp()
     {
+        audioSource.PlayOneShot(audioPickUp);
         Debug.Log("Picking up " + item.name);
 
         bool wasPickedUp = Inventory.instance.Add(item);

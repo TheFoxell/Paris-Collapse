@@ -55,11 +55,9 @@ public class PlayerController : MonoBehaviour
                 
                 Debug.Log("Walking");
 
-                float sec = hit.distance / 20;
 
                 motor.MoveToPoint(hit.point);
                 
-                StartCoroutine(WaitandMove(sec));
 
                 RemoveFocus();
                 

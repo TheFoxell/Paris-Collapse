@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/snake.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />

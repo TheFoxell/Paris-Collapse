@@ -20,22 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Snake.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Snake.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Fruit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Fruit.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Head.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tail.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/snake.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/snake.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Food.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Food.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Tail.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Tail.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

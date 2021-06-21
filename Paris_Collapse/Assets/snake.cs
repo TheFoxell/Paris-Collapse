@@ -13,7 +13,7 @@ public class snake : MonoBehaviour
 
     void Start()
     {
-        tempFruit = Instantiate(fruitPrefab, new Vector2(Random.Range(0, 10),Random.Range(0, 10)), Quaternion.identity);
+        tempFruit = Instantiate(fruitPrefab, new Vector2(Random.Range(-215, 215),Random.Range(-140, 125)), Quaternion.identity);
         InvokeRepeating("Move",0,.001f);
     }
 

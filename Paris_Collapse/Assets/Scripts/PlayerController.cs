@@ -23,8 +23,8 @@ public class PlayerController : MonoBehaviour
     public int gravite = 20;
     private Animator Anim;
     public int RunSpeed = 10;
-    public bool Inwalk;
     private Vector3 tmp;
+    public bool InWalk;
 
 
 
@@ -55,18 +55,16 @@ public class PlayerController : MonoBehaviour
                 
                 Debug.Log("Walking");
 
-                Inwalk = true;
-                
+                float sec = hit.distance / 20;
+
                 motor.MoveToPoint(hit.point);
+                
+                StartCoroutine(WaitandMove(sec));
 
                 RemoveFocus();
+                
             }
         }
-        if (tmp.x == transform.position.x)
-            Inwalk = false;
-
-        if (!Inwalk)
-            Anim.SetBool("Walk",false);
 
 
         if (Input.GetMouseButtonDown(1))
@@ -146,5 +144,13 @@ public class PlayerController : MonoBehaviour
             focus = null;
             motor.StopFollowingTarget();
         }
+
+        IEnumerator WaitandMove(float sec)
+        {
+            yield return new WaitForSeconds(sec);
+            Anim.SetBool("Walk",false);
+        }
+
     }
+    
 }

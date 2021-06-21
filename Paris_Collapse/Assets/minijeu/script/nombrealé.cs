@@ -68,7 +68,7 @@ public class nombrealé : MonoBehaviour
             else
                 player.coin -= 10;
             
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("Chargement");
         }
     }
 }

@@ -8,7 +8,7 @@ public class InteractScene : Interactable
 {
 
     public string _sceneName;
-    public Player player = null;
+    public Player player;
     public override void Interact()
     {
         base.Interact();
@@ -18,7 +18,7 @@ public class InteractScene : Interactable
 
     void Load(string sceneName)
     {
-        if (player != null)
+        if (sceneName == "Final")
         {
             if(player.level >= 100)
                 SceneManager.LoadScene(sceneName);

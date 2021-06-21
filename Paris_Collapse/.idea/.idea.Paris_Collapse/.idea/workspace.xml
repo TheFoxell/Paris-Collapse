@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="" />
+    <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

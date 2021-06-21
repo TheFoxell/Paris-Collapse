@@ -57,6 +57,9 @@ public class Player : MonoBehaviour
         pre = data.pre;
         cri = data.cri;
 
+        maxHealth = data.maxHealth;
+        maxShield = data.maxShield; 
+
         Vector3 position;
         position.x = data.position[0];
         position.y = data.position[1];
@@ -97,6 +100,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (healthBar != null)
             healthBar.SetHealth(health);
         
@@ -107,12 +111,9 @@ public class Player : MonoBehaviour
         if(expBar != null)
             expBar.SetExp(exp);
 
-        if (Input.GetKeyDown(KeyCode.P))
-            StopSaving();
-
         if(saving)
             SavePlayer();
-        
+
         UpdateLevel();
         
     }
@@ -124,13 +125,17 @@ public class Player : MonoBehaviour
         {
             exp -= expMax;
             expMax += 50;
-            level += 1;
+            level += 10;
         }
     }
     public void StopSaving()
     {
         saving = !saving;
         SaveSystem.Delete("player");
+        SaveSystem.Delete("zorg");
+        SaveSystem.Delete("t800");
+        SaveSystem.Delete("t1000");
+        SceneManager.LoadScene("Intro");
     }
 
     void Regenerate()

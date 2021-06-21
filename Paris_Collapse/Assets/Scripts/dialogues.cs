@@ -54,7 +54,11 @@ public class dialogues : MonoBehaviour
          textDisplay.text = "";
          continueButton.SetActive(false);
          if (SceneManager.GetActiveScene().name == "Intro" )
-            SceneManager.LoadScene("ville");
+            SceneManager.LoadScene("Chargement");
+         if (SceneManager.GetActiveScene().name == "End" )
+            Application.Quit();
+         if (SceneManager.GetActiveScene().name == "Final" )
+            SceneManager.LoadScene("CombatBoss");
       }
    }
 }

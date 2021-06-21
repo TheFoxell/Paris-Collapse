@@ -10,10 +10,13 @@ public class BuyButton : MonoBehaviour
     public Item itemToBuy;
     public string path = "Assets/Data/playerInventory.csv";
     
+    public AudioClip audioShop = null;
+    public AudioSource audioSource;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +27,7 @@ public class BuyButton : MonoBehaviour
     
     public void BuyItem()
     {
+        audioSource.PlayOneShot(audioShop);
         string name = itemToBuy.name;
 
         int tmpMoney = player.coin - itemToBuy.price;

@@ -20,10 +20,8 @@ public class DebugController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
+        if (Input.GetKeyDown(KeyCode.K))
             showConsole = !showConsole;
-        }
     }
     
     private void OnGUI()
@@ -36,6 +34,8 @@ public class DebugController : MonoBehaviour
         GUI.backgroundColor = new Color(0, 0, 0, 0);
         input = GUI.TextField(new Rect(10f, y + 5f, Screen.width - 20f, 20f), input);
     }
+
+    
 
 
     private void Awake()

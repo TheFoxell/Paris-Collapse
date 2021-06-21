@@ -24,23 +24,44 @@ public class BattleSystem : MonoBehaviour
 	public BattleHUD enemyHUD;
 
 	public BattleState state;
+	
+	public AudioSource audioSource;
+	public AudioClip audioHeal = null;
+	public AudioClip audioDamagePlayer = null;
+	public AudioClip audioDamageUnit = null;
+	public AudioClip audioVictory = null;
 
-    // Start is called before the first frame update
+	// Start is called before the first frame update
     void Start()
     {
+	    audioSource = GetComponent<AudioSource>();
 		state = BattleState.START;
 		StartCoroutine(SetupBattle());
     }
 
     void Update()
     {
-	    if (state == BattleState.LOST || state == BattleState.WON)
+	    if (state == BattleState.WON && dialogueText.text != "Vous avez gagné le combat! ")
 	    {
-		    SceneManager.LoadScene("ville");
+		    dialogueText.text = "Vous avez gagné le combat! ";
+		    audioSource.PlayOneShot(audioVictory);
+		    StartCoroutine(WaitAndWin());
+	    }
+	    if (state == BattleState.LOST)
+	    {
+		    SceneManager.LoadScene("Lose");
 	    }
     }
 
-	IEnumerator SetupBattle()
+    IEnumerator WaitAndWin()
+    {
+	    yield return new WaitForSeconds(6f);
+	    if (SceneManager.GetActiveScene().name == "CombatBoss")
+		    SceneManager.LoadScene("End");
+	    SceneManager.LoadScene("Chargement");
+    }
+
+    IEnumerator SetupBattle()
 	{
 
 		dialogueText.text = "Vous allez affronter " + enemyUnit.unitName;
@@ -56,6 +77,7 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator PlayerAttack()
 	{
+		audioSource.PlayOneShot(audioDamagePlayer);
 		bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
 		enemyHUD.SetHP(enemyUnit.currentHP);
@@ -78,6 +100,7 @@ public class BattleSystem : MonoBehaviour
 	IEnumerator EnemyTurn()
 	{
 		dialogueText.text = enemyUnit.unitName + " attaque!";
+		audioSource.PlayOneShot(audioDamageUnit);
 
 		yield return new WaitForSeconds(1f);
 
@@ -161,8 +184,7 @@ public class BattleSystem : MonoBehaviour
 	
 	public void OnFuiteButton()
 	{
-		SceneManager.LoadScene("ville");
-
+		SceneManager.LoadScene("Chargement");
 	}
 	
 	public void OnInventaireButton()
@@ -181,14 +203,20 @@ public class BattleSystem : MonoBehaviour
 		{
 			SceneManager.LoadScene("InventaireCombat3");
 		}
+		
+		if (enemyUnit.unitName == "Vyktor")
+		{
+			SceneManager.LoadScene("InventaireCombatPlayer");
+		}
 	}
 
 	public void OnHealButton()
 	{
+		audioSource.PlayOneShot(audioHeal);
 		if (state != BattleState.PLAYERTURN)
 			return;
 
 		StartCoroutine(PlayerHeal());
 	}
-
+	
 }

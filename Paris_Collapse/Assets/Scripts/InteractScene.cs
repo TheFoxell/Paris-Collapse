@@ -18,13 +18,15 @@ public class InteractScene : Interactable
 
     void Load(string sceneName)
     {
-        if (sceneName == "Final" && player != null)
+        if (player != null)
         {
             if(player.level >= 100)
                 SceneManager.LoadScene(sceneName);
         }
-        
-        Debug.Log("Load " + sceneName);
-        SceneManager.LoadScene(sceneName);
+        else
+        {
+            Debug.Log("Load " + sceneName);
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

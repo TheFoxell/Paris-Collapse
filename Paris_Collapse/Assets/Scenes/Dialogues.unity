@@ -496,6 +496,7 @@ MonoBehaviour:
     d'argent et augmenter ton niveau.
   - L'argent que tu economises pourra te servir a acheter des armes et ainsi pouvoir
     faire plus de degats a ton adversaire.
+  - Tu devras atteindre le niveau 100 pour pouvoir ouvrir la porte de l'EPITOUR.
   - A toi de jouer on a confiance en toi.
   typingSpeed: 0.02
   continueButton: {fileID: 1566469063}

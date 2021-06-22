@@ -58,7 +58,7 @@ public class nombrealé : MonoBehaviour
     }
     void Update()
     {
-        if (endGame && Input.GetKeyDown(KeyCode.E))
+        if (endGame)
         {
 
             if (nbCoup <= 3)

@@ -34,7 +34,7 @@ EditorBuildSettings:
     guid: 9f9076cd7f5f305489a33de390d9731a
   - enabled: 1
     path: Assets/Scenes/main.unity
-    guid: 9e193167b2042d048a8a14696fc7764d
+    guid: 427a8cfd4c1cd62439070192ccf050b5
   - enabled: 1
     path: Assets/Scenes/Store.unity
     guid: a936283e807e9cc48b4f92ae34d2fb5a
@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Combat3.unity
     guid: c7cf818465d9b4744a18cb1f853fcd48
+  - enabled: 1
+    path: Assets/Scenes/InventaireCombatBoss.unity
+    guid: fcebb79d045261f4281586ee433a5f56
   - enabled: 1
     path: Assets/Scenes/CombatBoss.unity
     guid: 154eea97ec42e584fbe4362530d32d69

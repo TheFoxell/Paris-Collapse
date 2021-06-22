@@ -1062,13 +1062,10 @@ MonoBehaviour:
   Quete: {fileID: 0}
   textDisplay: {fileID: 1585126188}
   sentences:
-  - Tu as maintenant accompli ta mission.
-  - "Tu as enfin r\xE9ussi \xE0 entrer dans la tour d'EPICORP."
-  - "Mais en entrant Vyktor Schnider t'as aper\xE7u, et il t'emp\xEAche de bloquer
-    le syst\xE8me qui donne une conscience aux robots."
-  - "\xC0 toi de le battre, lui qui es devenu plus fort que jamais gr\xE2ce \xE0
-    ses recherches."
-  - Sauve nous.
+  - "Tu as r\xE9ussi Kayne, tu as battu Viktor Schnider."
+  - "Gr\xE2ce \xE0 toi nous ne sommes plus sous l'emprise des robots de Viktor."
+  - En accomplissant ta mission, tu as rendu notre monde meilleur.
+  - "Merci d'avoir jou\xE9."
   typingSpeed: 0.02
   continueButton: {fileID: 374170396}
 --- !u!4 &1826911210

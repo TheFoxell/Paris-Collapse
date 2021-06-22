@@ -135,6 +135,21 @@ public class Player : MonoBehaviour
         SaveSystem.Delete("zorg");
         SaveSystem.Delete("t800");
         SaveSystem.Delete("t1000");
+        
+        string path = "Assets/Data/playerInventory.csv";
+        using (StreamWriter sw = new StreamWriter(path))
+        {
+            sw.WriteLine("Knife");
+            sw.WriteLine("Helmet");
+            sw.WriteLine("Chips");
+            
+            for (int i = 0; i < 18; i++)
+            {
+                sw.WriteLine("");
+            }
+        }
+    
+        
         SceneManager.LoadScene("Intro");
     }
 

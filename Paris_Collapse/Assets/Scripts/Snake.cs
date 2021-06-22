@@ -10,7 +10,7 @@ public class Snake : MonoBehaviour {
 	bool ate = false;
 
 	//Did user died?
-	bool isDied = false;
+	public bool isDied = false;
 
 	// Tail Prefab
 	public GameObject tailPrefab;
@@ -35,26 +35,27 @@ public class Snake : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
-		
-		if (!isDied) {
+	void Update()
+	{
+
+		if (!isDied)
+		{
 			// Move in a new Direction?
-			if (Input.GetKey (KeyCode.RightArrow))
+			if (Input.GetKey(KeyCode.RightArrow))
 				dir = Vector2.right;
-			else if (Input.GetKey (KeyCode.DownArrow))
-				dir = -Vector2.up;    // '-up' means 'down'
-			else if (Input.GetKey (KeyCode.LeftArrow))
+			else if (Input.GetKey(KeyCode.DownArrow))
+				dir = -Vector2.up; // '-up' means 'down'
+			else if (Input.GetKey(KeyCode.LeftArrow))
 				dir = -Vector2.right; // '-right' means 'left'
-			else if (Input.GetKey (KeyCode.UpArrow))
+			else if (Input.GetKey(KeyCode.UpArrow))
 				dir = Vector2.up;
-		} else {
-			if (Input.GetKey(KeyCode.Space))
-			{
-				player.coin -= 10;
-				player.coin += money;
-				
-				SceneManager.LoadScene("GameScene");
-			}
+		}
+		else
+		{
+			player.coin -= 10;
+			player.coin += money;
+
+			SceneManager.LoadScene("Chargement");
 		}
 	}
 

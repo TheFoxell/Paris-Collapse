@@ -45,12 +45,15 @@ public class Dé : MonoBehaviour
 
         if(played && face == 6)
         {
-            player.coin += 100;
+            player.coin += 90;
             player.exp += 20;
             SceneManager.LoadScene("ville");
         }
-        if(played)
+        if (played)
+        {
+            player.coin -= 10;
             SceneManager.LoadScene("ville");
+        }
     }
 
     IEnumerator ShowFace()

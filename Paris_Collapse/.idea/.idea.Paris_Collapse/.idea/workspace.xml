@@ -20,7 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/playerInventory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Image/border_horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Image/border_horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Image/border_vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Image/border_vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Image/food.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Image/food.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Image/icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Image/icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Image/snake.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Image/snake.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Fruit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Fruit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Tail Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Tail Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Snake.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Snake.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnFood.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnFood.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnFood.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnFood.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +70,9 @@
       <option value="$PROJECT_DIR$/Assets/snake.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" />
       <option value="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />

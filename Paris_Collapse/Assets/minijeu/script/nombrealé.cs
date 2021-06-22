@@ -62,9 +62,15 @@ public class nombrealé : MonoBehaviour
         {
 
             if (nbCoup <= 3)
-                player.coin += 20;
+            {
+                player.exp += 25;
+                player.coin += 50;
+            }
             if (nbCoup <= 5)
-                player.coin += 15;
+            {
+                player.exp += 15;
+                player.coin += 25;
+            }
             else
                 player.coin -= 10;
             

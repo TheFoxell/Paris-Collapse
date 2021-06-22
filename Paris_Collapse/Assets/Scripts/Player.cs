@@ -125,6 +125,10 @@ public class Player : MonoBehaviour
         {
             exp -= expMax;
             expMax += 50;
+            maxHealth += 10;
+            maxShield += 10;
+            damage += 5;
+            
             level += 10;
         }
     }

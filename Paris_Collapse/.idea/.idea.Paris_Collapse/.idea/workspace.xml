@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a05034c-8d44-4d54-a12f-851fb3b64ba1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Final.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Final.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paris_Collapse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BattleSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Son/FinalBattle.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Son/FinalBattle.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/minijeu/script/Dé.cs" />
+      <option value="$PROJECT_DIR$/Assets/minijeu/script/nombrealé.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
+      <option value="$PROJECT_DIR$/Assets/BattleSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1qyKqIad9vyOuKkWUYO1QAINIHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,6 +157,7 @@
       <workItem from="1624090346277" duration="326000" />
       <workItem from="1624269084528" duration="2472000" />
       <workItem from="1624288945413" duration="125000" />
+      <workItem from="1624388734137" duration="765000" />
     </task>
     <servers />
   </component>

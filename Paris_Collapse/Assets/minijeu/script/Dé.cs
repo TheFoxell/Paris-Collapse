@@ -46,7 +46,7 @@ public class Dé : MonoBehaviour
         if(played && face == 6)
         {
             player.coin += 90;
-            player.exp += 20;
+            player.exp += 50;
             SceneManager.LoadScene("ville");
         }
         if (played)

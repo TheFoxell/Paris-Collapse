@@ -129,22 +129,28 @@ public class BattleSystem : MonoBehaviour
 		{
 			dialogueText.text = "Vous avez gagné le combat!";
 			
-			if (enemyUnit.unitLevel >= 3)
+			if (enemyUnit.unitLevel == 1)
 			{
 				playerUnit.player.coin += 100;
-				playerUnit.player.exp += 20;
+				playerUnit.player.exp += 30;
 			}
 		
-			if (enemyUnit.unitLevel >= 8)
+			if (enemyUnit.unitLevel == 25)
 			{
 				playerUnit.player.coin += 250;
-				playerUnit.player.exp += 40;
+				playerUnit.player.exp += 75;
 			}
 		
-			if (enemyUnit.unitLevel >= 15)
+			if (enemyUnit.unitLevel == 50)
 			{
 				playerUnit.player.coin += 500;
-				playerUnit.player.exp += 50;
+				playerUnit.player.exp += 130;
+			}
+			
+			if (enemyUnit.unitLevel == 75)
+			{
+				playerUnit.player.coin += 650;
+				playerUnit.player.exp += 175;
 			}
 
 		} else if (state == BattleState.LOST)

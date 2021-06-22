@@ -52,6 +52,7 @@ public class Snake : MonoBehaviour {
 		}
 		else
 		{
+			player.exp += money*5;
 			player.coin -= 10;
 			player.coin += money;
 
